@@ -1,0 +1,85 @@
+{
+  "date": "2026-04-02",
+  "title": "BOBO 的 4 月 2 日日记",
+  "summary": "第二天开始把时间线往真实行为靠拢。页面保持三段式结构，等待后续把巡视原图和 Wan2.7 风格图替换进来。",
+  "cover_image": "skills/cat-daily/refer/stitch_ (1)/screen.png",
+  "stats": [
+    {
+      "label": "吃饭",
+      "value": "3 次",
+      "detail": "进食次数增加，开始能在首页做简洁摘要。",
+      "tone": "food"
+    },
+    {
+      "label": "喝水",
+      "value": "4 次",
+      "detail": "饮水事件分布更平均。",
+      "tone": "water"
+    },
+    {
+      "label": "上厕所",
+      "value": "4 次",
+      "detail": "卫生间服务持续写入日志，后续直接聚合到日页。",
+      "tone": "litter"
+    }
+  ],
+  "phases": [
+    {
+      "slug": "midnight",
+      "slots": [
+        {
+          "time": "00:00",
+          "title": "夜间安静活动",
+          "description": "刚过午夜有少量移动，之后继续回到熟悉角落休息。",
+          "badge": "巡视",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        },
+        {
+          "time": "05:00",
+          "title": "凌晨喝水",
+          "description": "清晨前完成一次饮水，行为日志将来会自动并入这一格。",
+          "badge": "喝水",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        }
+      ]
+    },
+    {
+      "slug": "daylight",
+      "slots": [
+        {
+          "time": "08:00",
+          "title": "早饭后躺平",
+          "description": "上午的照片更适合做 Q 版日常插画，后续优先接这一档。",
+          "badge": "吃饭",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        },
+        {
+          "time": "13:00",
+          "title": "白天发呆",
+          "description": "中午时段大多停留在客厅，状态偏平静。",
+          "badge": "发呆",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        }
+      ]
+    },
+    {
+      "slug": "evening",
+      "slots": [
+        {
+          "time": "17:00",
+          "title": "傍晚巡视",
+          "description": "开始进入第二段活跃窗口，晚间照片表现更丰富。",
+          "badge": "巡视",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        },
+        {
+          "time": "21:00",
+          "title": "夜间收尾",
+          "description": "这一阶段将作为晚上 cron 的最终整理窗口。",
+          "badge": "休息",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        }
+      ]
+    }
+  ]
+}

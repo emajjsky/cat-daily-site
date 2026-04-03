@@ -1,0 +1,106 @@
+{
+  "date": "2026-04-03",
+  "title": "BOBO 的 4 月 3 日日记",
+  "summary": "今天开始把页面和更新策略统一成三段：午夜到清晨、白天时段、傍晚到夜间。下一步会把真实抓拍、位置判断和 Wan2.7 风格图接进每个时段卡片里。",
+  "cover_image": "skills/cat-daily/refer/stitch_/screen.png",
+  "stats": [
+    {
+      "label": "吃饭",
+      "value": "4 次",
+      "detail": "已从当天现有日志中提取为首页摘要。",
+      "tone": "food"
+    },
+    {
+      "label": "喝水",
+      "value": "6 次",
+      "detail": "清晨与上午是今天饮水高峰。",
+      "tone": "water"
+    },
+    {
+      "label": "上厕所",
+      "value": "5 次",
+      "detail": "卫生间事件日志已经可以并入日页统计。",
+      "tone": "litter"
+    }
+  ],
+  "phases": [
+    {
+      "slug": "midnight",
+      "slots": [
+        {
+          "time": "00:00",
+          "title": "午夜巡逻开始",
+          "description": "刚入夜后的第一段巡视先记录家里静态位置，后续会补成真实抓拍图。",
+          "badge": "巡视",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        },
+        {
+          "time": "03:00",
+          "title": "凌晨短时补水",
+          "description": "结合现有卫生间日志，这段时间里有明显的喝水行为。",
+          "badge": "喝水",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        },
+        {
+          "time": "06:00",
+          "title": "清晨进食前活动",
+          "description": "天亮前后活动开始增加，适合作为第一阶段的收尾摘要。",
+          "badge": "活跃",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        }
+      ]
+    },
+    {
+      "slug": "daylight",
+      "slots": [
+        {
+          "time": "09:00",
+          "title": "上午补水完成",
+          "description": "上午阶段记录到饮水与短时上厕所，页面会汇总成白天时段摘要。",
+          "badge": "喝水",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        },
+        {
+          "time": "12:00",
+          "title": "中午厕所事件",
+          "description": "现有 CatDaily 事件流已经能提供可信的卫生间行为数据。",
+          "badge": "上厕所",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        },
+        {
+          "time": "15:00",
+          "title": "白天阶段整理",
+          "description": "第二次 cron 会在这个阶段结束后重建整页并对外发布。",
+          "badge": "阶段更新",
+          "image": "skills/cat-daily/refer/stitch_ (1)/screen.png"
+        }
+      ]
+    },
+    {
+      "slug": "evening",
+      "slots": [
+        {
+          "time": "18:00",
+          "title": "傍晚晚饭窗口",
+          "description": "这一档会优先展示晚饭、喝水以及客厅活动的组合摘要。",
+          "badge": "吃饭",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        },
+        {
+          "time": "21:00",
+          "title": "夜间休整",
+          "description": "准备进入当天最后一个阶段，后续会生成更完整的夜间风格图。",
+          "badge": "休息",
+          "image": "skills/cat-daily/refer/stitch_/screen.png"
+        },
+        {
+          "time": "23:00",
+          "title": "当日收尾",
+          "description": "第三次 cron 在夜间执行，用于产出当天最终版页面。",
+          "badge": "收尾",
+          "image": "skills/cat-daily/refer/stitch_ (1)/screen.png"
+        }
+      ]
+    }
+  ]
+}
