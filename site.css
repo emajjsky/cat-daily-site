@@ -229,9 +229,9 @@ img {
 }
 
 .avatar-image-portrait {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 16 / 9;
   border-radius: 24px;
-  object-position: center 35%;
+  object-position: center center;
 }
 
 .avatar-caption {
