@@ -23,19 +23,22 @@
         </div>
       </header>
 
-      <section class="hero-grid">
-        <article class="panel panel-pop profile-panel">
-          <div class="profile-grid">
-            <div class="avatar-frame">
-              <img class="avatar-image" src="media/skills/cat-daily/refer/stitch_-1/screen.png" alt="杰斯">
-              <p class="avatar-caption">杰斯 scrapbook profile</p>
+      <section class="hero-grid hero-grid-single">
+        <article class="panel panel-pop profile-panel profile-panel-wide">
+          <div class="profile-grid profile-grid-wide">
+            <div class="avatar-frame avatar-frame-portrait">
+              <span class="photo-badge">猫证件照</span>
+              <img class="avatar-image avatar-image-portrait" src="media/cat.jpg" alt="杰斯">
             </div>
-            <div>
+            <div class="profile-copy">
               <p class="eyebrow">Resident Cat</p>
-              <h2 class="headline">杰斯 <strong>杰斯臭宝日记站</strong></h2>
-              <p class="lead">每天只想躺平</p>
+              <div class="profile-title-row">
+                <h2 class="headline profile-name">杰斯</h2>
+                <span class="profile-title-badge">杰斯臭宝日记站</span>
+              </div>
+              <p class="lead profile-tagline">每天只想躺平</p>
               <div class="chip-row"><span class="chip chip-primary">躺平</span><span class="chip chip-secondary">逆来顺受</span><span class="chip chip-tertiary">佛系</span><span class="chip chip-primary">煤气罐</span></div>
-              <div class="profile-facts">
+              <div class="profile-facts profile-facts-wide">
                 
             <div class="fact-card">
               <p class="fact-label">生日</p>
@@ -73,80 +76,10 @@
             </div>
             
               </div>
-              <p class="lead">记录杰斯臭宝的每一天</p>
+              <p class="lead profile-note">记录杰斯臭宝的每一天</p>
             </div>
           </div>
         </article>
-
-        <aside class="panel featured-panel">
-          <span class="kicker">最新更新</span>
-          <h2 class="section-title">BOBO 的 4 月 3 日日记</h2>
-          <div class="date-badge">2026.04.03</div>
-          <p class="featured-summary">今天开始把页面和更新策略统一成三段：午夜到清晨、白天时段、傍晚到夜间。下一步会把真实抓拍、位置判断和 Wan2.7 风格图接进每个时段卡片里。</p>
-          <a class="pill-link" href="days/2026-04-03/index.html">进入当日日页</a>
-        </aside>
-      </section>
-
-      <section class="stat-grid">
-        
-            <article class="stat-card food">
-              <p class="stat-label">吃饭</p>
-              <p class="stat-value">4 次</p>
-              <p class="stat-detail">已从当天现有日志中提取为首页摘要。</p>
-            </article>
-            
-            <article class="stat-card water">
-              <p class="stat-label">喝水</p>
-              <p class="stat-value">6 次</p>
-              <p class="stat-detail">清晨与上午是今天饮水高峰。</p>
-            </article>
-            
-            <article class="stat-card litter">
-              <p class="stat-label">上厕所</p>
-              <p class="stat-value">5 次</p>
-              <p class="stat-detail">卫生间事件日志已经可以并入日页统计。</p>
-            </article>
-            
-      </section>
-
-      <section class="hero-grid">
-        <article class="panel schedule-panel">
-          <span class="kicker">分阶段更新</span>
-          <h2 class="section-title">每天固定三次整理</h2>
-          <div class="schedule-list">
-            
-            <div class="schedule-item">
-              <div class="schedule-time">00:00-07:59</div>
-              <div>
-                <strong>午夜到清晨</strong>
-                <div>该时段结束后统一整理巡视图、行为摘要和厕所事件。</div>
-              </div>
-            </div>
-            
-            <div class="schedule-item">
-              <div class="schedule-time">08:00-15:59</div>
-              <div>
-                <strong>白天时段</strong>
-                <div>该时段结束后统一整理巡视图、行为摘要和厕所事件。</div>
-              </div>
-            </div>
-            
-            <div class="schedule-item">
-              <div class="schedule-time">16:00-23:59</div>
-              <div>
-                <strong>傍晚到夜间</strong>
-                <div>该时段结束后统一整理巡视图、行为摘要和厕所事件。</div>
-              </div>
-            </div>
-            
-          </div>
-        </article>
-
-        <aside class="panel archive-panel">
-          <span class="kicker">使用方式</span>
-          <h2 class="section-title">当前站点节奏</h2>
-          <p class="lead">网页端先做成静态站。后续由 cron 负责定时抓图、调用风格化脚本、重建页面，再把构建产物发布到 GitHub Pages。</p>
-        </aside>
       </section>
 
       <section id="archives" class="panel archive-panel">
@@ -177,8 +110,6 @@
             
         </div>
       </section>
-
-      <p class="footer-note">这个版本已经按 8 小时分段设计好了页面骨架。下一步只需要把真实 JSON 数据和图片喂进来，再由 cron 定时执行构建脚本。</p>
     </div>
   </body>
 </html>
