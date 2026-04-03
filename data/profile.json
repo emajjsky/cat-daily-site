@@ -1,19 +1,20 @@
 {
-  "name": "请改成你的猫名",
-  "profile_title": "请配置猫咪档案标题",
-  "tagline": "这里填写这只猫的简介，例如常驻地点、性格、记录目标。",
+  "name": "杰斯",
+  "profile_title": "杰斯臭宝日记站",
+  "tagline": "每天只想躺平",
   "image": "skills/cat-daily/refer/stitch_ (1)/screen.png",
   "chips": [
-    "请改标签1",
-    "请改标签2",
-    "请改标签3"
+    "躺平",
+    "逆来顺受",
+    "佛系",
+    "煤气罐"
   ],
-  "birthday": "请填生日",
-  "age": "请填年龄",
-  "weight": "请填体重",
-  "gender": "请填性别",
-  "diet_status": "请填饮食状态",
-  "vaccination": "请填疫苗状态",
-  "last_visit": "请填最近就诊信息",
-  "note": "当前版本先以静态站为目标。后续会把整点抓拍压缩为 8 小时一更，再由 cron 触发抓图、风格化出图、重建和发布。"
+  "birthday": "2021年11月07日",
+  "age": "4岁",
+  "weight": "6.3 KG",
+  "gender": "公",
+  "diet_status": "0个罐罐，8根猫条",
+  "vaccination": "正常",
+  "last_visit": "无就诊记录",
+  "note": "记录杰斯臭宝的每一天"
 }
