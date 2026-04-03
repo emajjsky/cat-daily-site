@@ -1,15 +1,7 @@
 {
   "site": {
     "title": "蓝猫波普日记",
-    "subtitle": "每 8 小时整理一次猫咪的一天",
-    "cat_name": "BOBO",
-    "cat_profile": "英短蓝猫的生活档案",
-    "tagline": "用阶段式更新记录猫咪的位置、状态、吃饭喝水与厕所事件，再生成一份可以公开浏览的日记站。"
-  },
-  "profile": {
-    "image": "skills/cat-daily/refer/stitch_ (1)/screen.png",
-    "chips": ["贪吃", "粘人", "拆家", "懒猪"],
-    "note": "当前版本先以静态站为目标。后续会把整点抓拍压缩为 8 小时一更，再由 cron 触发抓图、风格化出图、重建和发布。"
+    "subtitle": "每 8 小时整理一次猫咪的一天"
   },
   "featured_date": "2026-04-03"
 }

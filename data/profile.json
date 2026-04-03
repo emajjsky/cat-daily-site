@@ -1,0 +1,19 @@
+{
+  "name": "请改成你的猫名",
+  "profile_title": "请配置猫咪档案标题",
+  "tagline": "这里填写这只猫的简介，例如常驻地点、性格、记录目标。",
+  "image": "skills/cat-daily/refer/stitch_ (1)/screen.png",
+  "chips": [
+    "请改标签1",
+    "请改标签2",
+    "请改标签3"
+  ],
+  "birthday": "请填生日",
+  "age": "请填年龄",
+  "weight": "请填体重",
+  "gender": "请填性别",
+  "diet_status": "请填饮食状态",
+  "vaccination": "请填疫苗状态",
+  "last_visit": "请填最近就诊信息",
+  "note": "当前版本先以静态站为目标。后续会把整点抓拍压缩为 8 小时一更，再由 cron 触发抓图、风格化出图、重建和发布。"
+}
