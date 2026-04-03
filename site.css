@@ -132,6 +132,7 @@ img {
   box-shadow: 4px 4px 0 0 var(--border);
   font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .date-picker-label {
@@ -140,12 +141,139 @@ img {
   text-transform: uppercase;
 }
 
-.date-picker-input {
-  border: 0;
-  background: transparent;
-  font: inherit;
-  font-size: 0.95rem;
-  outline: none;
+.date-picker-value {
+  font-size: 1rem;
+}
+
+.calendar-picker {
+  position: relative;
+}
+
+.calendar-popover {
+  position: absolute;
+  top: calc(100% + 14px);
+  right: 0;
+  width: 360px;
+  padding: 18px;
+  border: 4px solid var(--border);
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 189, 243, 0.18));
+  box-shadow: 10px 10px 0 0 rgba(164, 0, 164, 0.28);
+}
+
+.calendar-legend {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.calendar-legend-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border: 3px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.calendar-legend-chip.is-available {
+  background: linear-gradient(180deg, rgba(255, 215, 9, 0.95), rgba(255, 240, 166, 0.95));
+  box-shadow: 4px 4px 0 0 rgba(164, 0, 164, 0.18);
+}
+
+.calendar-legend-chip.is-unavailable {
+  background: #ececf0;
+  color: rgba(32, 34, 37, 0.44);
+  border-color: rgba(0, 0, 0, 0.24);
+  filter: grayscale(1);
+}
+
+.calendar-head {
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.calendar-month-label {
+  text-align: center;
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.calendar-nav {
+  min-height: 44px;
+  border: 3px solid var(--border);
+  border-radius: 16px;
+  background: var(--paper);
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 0 var(--border);
+}
+
+.calendar-weekdays,
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.calendar-weekdays {
+  margin-bottom: 10px;
+}
+
+.calendar-weekdays span {
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 900;
+  color: rgba(32, 34, 37, 0.68);
+}
+
+.calendar-day {
+  min-height: 42px;
+  border: 3px solid var(--border);
+  border-radius: 14px;
+  background: var(--paper);
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
+  font-size: 0.98rem;
+  font-weight: 900;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.calendar-day.is-available {
+  background: linear-gradient(180deg, rgba(255, 215, 9, 0.95), rgba(255, 240, 166, 0.95));
+  box-shadow: 5px 5px 0 0 rgba(164, 0, 164, 0.22);
+}
+
+.calendar-day.is-available:hover {
+  transform: translate(-1px, -1px) rotate(-2deg);
+  box-shadow: 7px 7px 0 0 rgba(164, 0, 164, 0.28);
+}
+
+.calendar-day.is-selected {
+  background: linear-gradient(180deg, rgba(164, 0, 164, 0.92), rgba(214, 89, 214, 0.92));
+  color: #ffffff;
+  box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.calendar-day.is-unavailable {
+  background: #ececf0;
+  color: rgba(32, 34, 37, 0.4);
+  border-color: rgba(0, 0, 0, 0.26);
+  filter: grayscale(1);
+  cursor: not-allowed;
+}
+
+.calendar-day.is-other-month {
+  opacity: 0.42;
 }
 
 .button,
@@ -309,21 +437,37 @@ img {
 }
 
 .gender-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 62px;
-  min-height: 62px;
-  padding: 10px 16px;
-  border: 4px solid var(--border);
-  border-radius: 999px;
-  background: linear-gradient(180deg, var(--tertiary), #ffe88a);
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 84px;
+  height: 84px;
   font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 900;
   line-height: 1;
-  box-shadow: 6px 6px 0 0 rgba(164, 0, 164, 0.28);
-  transform: rotate(6deg);
+  color: #151515;
+  transform: rotate(4deg);
+  isolation: isolate;
+}
+
+.gender-badge::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 4px solid var(--border);
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(255, 215, 9, 0.98), rgba(255, 232, 138, 0.98));
+  z-index: -1;
+}
+
+.gender-badge::after {
+  content: "";
+  position: absolute;
+  inset: 10px -8px -8px 10px;
+  border-radius: 999px;
+  background: rgba(255, 189, 243, 0.95);
+  z-index: -2;
 }
 
 .profile-tagline {
@@ -540,8 +684,8 @@ img {
 .archive-card {
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  padding: 14px 14px 22px;
+  gap: 10px;
+  padding: 18px 20px 22px;
   border: 4px solid var(--border);
   border-radius: 22px;
   background: var(--paper);
@@ -552,14 +696,6 @@ img {
 .archive-card:hover {
   transform: translateY(-4px) rotate(1deg);
   box-shadow: 8px 8px 0 0 rgba(164, 0, 164, 0.22);
-}
-
-.archive-cover {
-  aspect-ratio: 1 / 1;
-  border: 4px solid var(--border);
-  border-radius: 18px;
-  background: linear-gradient(135deg, rgba(187, 223, 248, 0.7), rgba(255, 189, 243, 0.6));
-  object-fit: cover;
 }
 
 .archive-date {
@@ -576,14 +712,32 @@ img {
 .archive-title {
   margin: 0;
   font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
-  font-size: 1.18rem;
+  font-size: 1.3rem;
   font-weight: 900;
+  line-height: 1.2;
 }
 
 .archive-summary {
   margin: 0;
+  font-size: 0.95rem;
   line-height: 1.65;
   color: rgba(32, 34, 37, 0.76);
+}
+
+.archive-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.archive-meta-chip {
+  display: inline-flex;
+  padding: 6px 10px;
+  border: 3px solid var(--border);
+  border-radius: 999px;
+  background: rgba(187, 223, 248, 0.72);
+  font-size: 0.78rem;
+  font-weight: 900;
 }
 
 .day-layout {
@@ -821,6 +975,12 @@ img {
 
   .topbar-actions {
     justify-content: flex-start;
+  }
+
+  .calendar-popover {
+    left: 0;
+    right: auto;
+    width: min(360px, calc(100vw - 28px));
   }
 
   .stat-grid,
