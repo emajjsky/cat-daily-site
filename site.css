@@ -120,6 +120,34 @@ img {
   justify-content: flex-end;
 }
 
+.date-picker-shell {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 46px;
+  padding: 0 16px;
+  border: 3px solid var(--border);
+  border-radius: 999px;
+  background: #cce7ff;
+  box-shadow: 4px 4px 0 0 var(--border);
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
+  font-weight: 800;
+}
+
+.date-picker-label {
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.date-picker-input {
+  border: 0;
+  background: transparent;
+  font: inherit;
+  font-size: 0.95rem;
+  outline: none;
+}
+
 .button,
 .pill-link {
   display: inline-flex;
@@ -270,30 +298,29 @@ img {
   flex-wrap: wrap;
   align-items: center;
   gap: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .profile-name {
   margin: 0;
 }
 
-.profile-title-badge {
+.gender-badge {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 9px 14px;
   border: 3px solid var(--border);
   border-radius: 999px;
-  background: var(--secondary-soft);
+  background: var(--primary-soft);
   font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 800;
 }
 
 .profile-tagline {
-  margin-bottom: 12px;
-}
-
-.profile-note {
-  margin-top: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
 }
 
 .headline {
@@ -351,7 +378,7 @@ img {
 }
 
 .profile-facts-wide {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
 }
 
