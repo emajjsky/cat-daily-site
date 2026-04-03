@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>蓝猫波普日记</title>
+    <title>记录杰斯臭宝的每一天</title>
     <link rel="stylesheet" href="./site.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +14,15 @@
       <header class="topbar">
         <div class="brand">
           <p class="eyebrow">Cat Daily</p>
-          <h1 class="brand-title">蓝猫波普日记</h1>
-          <p class="brand-subtitle">每 8 小时整理一次猫咪的一天</p>
+          <h1 class="brand-title">记录杰斯臭宝的每一天</h1>
+          
         </div>
         <div class="topbar-actions">
           <a class="button button-primary" href="days/2026-04-03/index.html">查看最新日记</a>
-          <a class="button button-secondary" href="#archives">浏览归档</a>
+          <label class="date-picker-shell" for="diary-date-picker">
+            <span class="date-picker-label">选择日期</span>
+            <input id="diary-date-picker" class="date-picker-input" type="date" value="2026-04-03">
+          </label>
         </div>
       </header>
 
@@ -27,14 +30,13 @@
         <article class="panel panel-pop profile-panel profile-panel-wide">
           <div class="profile-grid profile-grid-wide">
             <div class="avatar-frame avatar-frame-portrait">
-              <span class="photo-badge">猫咪照片</span>
               <img class="avatar-image avatar-image-portrait" src="media/cat.jpg" alt="杰斯">
             </div>
             <div class="profile-copy">
               <p class="eyebrow">Resident Cat</p>
               <div class="profile-title-row">
                 <h2 class="headline profile-name">杰斯</h2>
-                <span class="profile-title-badge">杰斯臭宝日记站</span>
+                <span class="gender-badge" aria-label="公">♂</span>
               </div>
               <p class="lead profile-tagline">每天只想躺平</p>
               <div class="chip-row"><span class="chip chip-primary">躺平</span><span class="chip chip-secondary">逆来顺受</span><span class="chip chip-tertiary">佛系</span><span class="chip chip-primary">煤气罐</span></div>
@@ -56,27 +58,11 @@
             </div>
             
             <div class="fact-card">
-              <p class="fact-label">性别</p>
-              <p class="fact-value">公</p>
-            </div>
-            
-            <div class="fact-card">
-              <p class="fact-label">饮食</p>
-              <p class="fact-value">0个罐罐，8根猫条</p>
-            </div>
-            
-            <div class="fact-card">
-              <p class="fact-label">疫苗</p>
-              <p class="fact-value">正常</p>
-            </div>
-            
-            <div class="fact-card">
               <p class="fact-label">最近就诊</p>
               <p class="fact-value">无就诊记录</p>
             </div>
             
               </div>
-              <p class="lead profile-note">记录杰斯臭宝的每一天</p>
             </div>
           </div>
         </article>
@@ -111,5 +97,22 @@
         </div>
       </section>
     </div>
+    <script>
+      (function () {
+        const days = {"2026-04-03": "days/2026-04-03/index.html", "2026-04-02": "days/2026-04-02/index.html", "2026-04-01": "days/2026-04-01/index.html"};
+        const datePicker = document.getElementById("diary-date-picker");
+        if (!datePicker) {
+          return;
+        }
+        datePicker.addEventListener("change", () => {
+          const target = days[datePicker.value];
+          if (target) {
+            window.location.href = target;
+            return;
+          }
+          window.alert("这一天还没有日记。");
+        });
+      })();
+    </script>
   </body>
 </html>
