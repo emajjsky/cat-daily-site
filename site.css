@@ -167,6 +167,10 @@ img {
   margin-bottom: 28px;
 }
 
+.hero-grid-single {
+  grid-template-columns: 1fr;
+}
+
 .panel {
   border: 4px solid var(--border);
   border-radius: var(--radius-lg);
@@ -183,6 +187,10 @@ img {
   transform: rotate(-1deg);
 }
 
+.profile-panel-wide {
+  transform: none;
+}
+
 .profile-grid {
   display: grid;
   grid-template-columns: 280px 1fr;
@@ -190,13 +198,26 @@ img {
   align-items: start;
 }
 
+.profile-grid-wide {
+  grid-template-columns: minmax(280px, 380px) 1fr;
+  gap: 34px;
+  align-items: start;
+}
+
 .avatar-frame {
+  position: relative;
   padding: 14px 14px 28px;
   border: 4px solid var(--border);
   border-radius: var(--radius-md);
   background: var(--paper);
   box-shadow: 6px 6px 0 0 rgba(164, 0, 164, 0.22);
   transform: rotate(2deg);
+}
+
+.avatar-frame-portrait {
+  padding: 14px;
+  border-radius: 30px;
+  transform: rotate(-1deg);
 }
 
 .avatar-image {
@@ -207,6 +228,12 @@ img {
   object-fit: cover;
 }
 
+.avatar-image-portrait {
+  aspect-ratio: 4 / 5;
+  border-radius: 24px;
+  object-position: center 35%;
+}
+
 .avatar-caption {
   margin: 14px 0 0;
   text-align: center;
@@ -215,6 +242,58 @@ img {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--primary);
+}
+
+.photo-badge {
+  position: absolute;
+  top: -16px;
+  left: 18px;
+  display: inline-flex;
+  padding: 8px 14px;
+  border: 3px solid var(--border);
+  border-radius: 999px;
+  background: var(--tertiary);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 0.16);
+}
+
+.profile-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.profile-name {
+  margin: 0;
+}
+
+.profile-title-badge {
+  display: inline-flex;
+  padding: 9px 14px;
+  border: 3px solid var(--border);
+  border-radius: 999px;
+  background: var(--secondary-soft);
+  font-family: "Plus Jakarta Sans", "Noto Sans SC", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.profile-tagline {
+  margin-bottom: 12px;
+}
+
+.profile-note {
+  margin-top: 4px;
 }
 
 .headline {
@@ -269,6 +348,11 @@ img {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
   margin: 8px 0 20px;
+}
+
+.profile-facts-wide {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
 }
 
 .fact-card {
@@ -671,6 +755,10 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .profile-grid-wide {
+    grid-template-columns: 1fr;
+  }
+
   .stat-grid,
   .archive-grid,
   .phase-grid {
@@ -678,6 +766,10 @@ img {
   }
 
   .profile-facts {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .profile-facts-wide {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -703,6 +795,10 @@ img {
   }
 
   .profile-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-facts-wide {
     grid-template-columns: 1fr;
   }
 
