@@ -3,7 +3,7 @@
   "title": "杰斯 · 2026.04.04 日记",
   "summary": "昆明今天局部多云，当前 22°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 1/24 个小时槽位，最近一次更新在 12:00。",
   "cover_summary": "昆明今天局部多云，当前 22°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
-  "cover_image": "services/catdaily-journal/assets/styled/2026-04-04/cover/wan27_1775278559_0.png",
+  "cover_image": "services/catdaily-journal/assets/styled/2026-04-04/cover/wan27_1775279041_0.png",
   "stats": [
     {
       "label": "吃饭",
@@ -13,8 +13,8 @@
     },
     {
       "label": "喝水",
-      "value": "5 次",
-      "detail": "首次 01:32，末次 12:03，累计 4分钟13秒。",
+      "value": "6 次",
+      "detail": "首次 01:32，末次 13:05，累计 5分钟7秒。",
       "tone": "water"
     },
     {
@@ -38,21 +38,21 @@
           "camera": "bathroom",
           "camera_label": "卫生间",
           "title": "12:00 杰斯出现了",
-          "description": "12:00 在卫生间拍到了杰斯，位置：画面左侧靠窗处，状态：正在进食。",
+          "description": "12:00 在卫生间拍到了杰斯，位置：画面左侧，状态：正在进食。",
           "badge": "已找到",
-          "image": "services/catdaily-journal/assets/styled/2026-04-04/12/wan27_1775278674_0.png",
+          "image": "services/catdaily-journal/assets/styled/2026-04-04/12/wan27_1775279149_0.png",
           "raw_image": "services/catdaily-journal/assets/raw/2026-04-04/12/scout/bathroom.jpg",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-04-04/12/wan27_1775278674_0.png",
-          "location": "画面左侧靠窗处",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-04/12/wan27_1775279149_0.png",
+          "location": "画面左侧",
           "activity": "正在进食",
           "surroundings": "卫生间内，有马桶和食碗，瓷砖地面",
-          "prompt": "1:1正方形构图。波普风 Q 版插画，主角是蓝灰色英短猫杰斯。时间 12:00，日期 2026-04-04，摄像头 卫生间。猫在画面左侧靠窗处，状态是正在进食，周边环境包括卫生间内，有马桶和食碗，瓷砖地面。画面要可爱、鲜明、手绘感强，适合猫咪日记网站。必须是正方形。",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间12:00，日期2026-04-04，摄像头卫生间。杰斯在画面左侧，正在进食。周边环境：卫生间内，有马桶和食碗，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
           "analysis": {
             "found": true,
-            "location": "画面左侧靠窗处",
+            "location": "画面左侧",
             "activity": "正在进食",
             "surroundings": "卫生间内，有马桶和食碗，瓷砖地面",
-            "raw_response": "{\"found\":true,\"location\":\"画面左侧靠窗处\",\"activity\":\"正在进食\",\"surroundings\":\"卫生间内，有马桶和食碗，瓷砖地面\"}",
+            "raw_response": "{\"found\":true,\"location\":\"画面左侧\",\"activity\":\"正在进食\",\"surroundings\":\"卫生间内，有马桶和食碗，瓷砖地面\"}",
             "model": "glm-5.1",
             "provider": "zai"
           },
@@ -94,17 +94,17 @@
               "success": true,
               "analysis": {
                 "found": true,
-                "location": "画面左侧靠窗处",
+                "location": "画面左侧",
                 "activity": "正在进食",
                 "surroundings": "卫生间内，有马桶和食碗，瓷砖地面",
-                "raw_response": "{\"found\":true,\"location\":\"画面左侧靠窗处\",\"activity\":\"正在进食\",\"surroundings\":\"卫生间内，有马桶和食碗，瓷砖地面\"}",
+                "raw_response": "{\"found\":true,\"location\":\"画面左侧\",\"activity\":\"正在进食\",\"surroundings\":\"卫生间内，有马桶和食碗，瓷砖地面\"}",
                 "model": "glm-5.1",
                 "provider": "zai"
               },
               "analysis_selected": true
             }
           ],
-          "updated_at": "2026-04-04T12:57:54.542853+08:00"
+          "updated_at": "2026-04-04T13:05:49.952314+08:00"
         }
       ]
     },
@@ -113,7 +113,7 @@
       "slots": []
     }
   ],
-  "cover_prompt": "生成一张1:1正方形构图的猫咪日记网站当日封面。参考输入图里猫咪的毛色、脸型和体态特征，主角是杰斯，蓝灰色英短猫，整体做成波普风 Q 版手绘插画。画面地点是昆明，天气信息是局部多云，当前温度 22°C，今日温度范围 11°C 到 24°C。把日期 2026-04-04 和天气文案自然整合进画面，像杂志封面或日记海报一样清晰可读。整体要明亮、可爱、色块大胆、有印刷颗粒感，适合作为猫咪日记站封面图。必须是正方形1:1比例。",
+  "cover_prompt": "1:1正方形构图猫咪日记封面。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色/琥珀色眼睛、粗短四肢、胖嘟嘟身材。整体波普风Q版手绘插画风格。地点昆明，天气局部多云，当前22°C，今日11°C~24°C。把日期2026-04-04和天气文案像杂志封面一样醒目排布。背景必须画出与天气匹配的室内/窗外场景（如晴天窗外阳光、多云天室内暖光等）。整体明亮、可爱、色块大胆、印刷颗粒感。必须是1:1正方形。",
   "weather": {
     "source": "open-meteo",
     "location_name": "昆明",
@@ -125,7 +125,7 @@
     "current_temp": "22",
     "temp_min": "11",
     "temp_max": "24",
-    "observed_at": "2026-04-04T12:45"
+    "observed_at": "2026-04-04T13:00"
   },
-  "updated_at": "2026-04-04T12:57:54.542974+08:00"
+  "updated_at": "2026-04-04T13:05:49.952402+08:00"
 }
