@@ -1,14 +1,14 @@
 {
   "date": "2026-04-04",
   "title": "杰斯 · 2026.04.04 日记",
-  "summary": "昆明今天阴天，当前 24°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 17/24 个小时槽位，最近一次更新在 16:00。",
+  "summary": "昆明今天阴天，当前 24°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 18/24 个小时槽位，最近一次更新在 17:00。",
   "cover_summary": "昆明今天阴天，当前 24°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
   "cover_image": "services/catdaily-journal/assets/styled/2026-04-04/cover/wan27_1775280414_0.png",
   "stats": [
     {
       "label": "吃饭",
-      "value": "5 次",
-      "detail": "首次 04:26，末次 13:49，累计 9分钟24秒。",
+      "value": "6 次",
+      "detail": "首次 04:26，末次 16:49，累计 11分钟52秒。",
       "tone": "food"
     },
     {
@@ -623,6 +623,46 @@
             }
           ],
           "updated_at": "2026-04-04T16:38:49.209050+08:00"
+        },
+        {
+          "time": "17:00",
+          "status": "not_found",
+          "camera": "",
+          "camera_label": "",
+          "title": "杰斯躲猫猫",
+          "description": "这一小时轮询了全部摄像头，暂时没拍到杰斯，先用躲猫猫主题占位。",
+          "badge": "未找到",
+          "image": "services/catdaily-journal/assets/styled/2026-04-04/17/wan27_1775294138_0.png",
+          "raw_image": "",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-04/17/wan27_1775294138_0.png",
+          "location": "",
+          "activity": "躲猫猫",
+          "surroundings": "",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。主题是躲猫猫，杰斯藏在窗帘后、沙发下或纸箱里，只露出尾巴或一双古铜色大眼睛。画面保留日期2026-04-04与时间17:00。背景画出家中场景：家具、地毯、猫咪玩具散落。整体可爱、明亮、手绘感、印刷颗粒感。必须是正方形。",
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-04/17/scout/laoliu.jpg",
+              "success": true,
+              "analysis_error": "[Errno 2] No such file or directory: 'openclaw'"
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-04/17/scout/moss.jpg",
+              "success": true,
+              "analysis_error": "[Errno 2] No such file or directory: 'openclaw'"
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-04/17/scout/bathroom.jpg",
+              "success": true,
+              "analysis_error": "[Errno 2] No such file or directory: 'openclaw'"
+            }
+          ],
+          "updated_at": "2026-04-04T17:15:38.637470+08:00"
         }
       ]
     }
@@ -641,5 +681,5 @@
     "temp_max": "24",
     "observed_at": "2026-04-04T14:45"
   },
-  "updated_at": "2026-04-04T16:38:49.209166+08:00"
+  "updated_at": "2026-04-04T17:15:38.637569+08:00"
 }
