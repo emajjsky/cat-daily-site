@@ -833,12 +833,12 @@
           "status": "found",
           "camera": "bathroom",
           "camera_label": "卫生间",
-          "title": "20:00 走动或站立中ing",
-          "description": "小家伙在画面左侧地面上警觉地站着，卫生间内，有马桶，瓷砖地面的气氛很惬意。",
+          "title": "走动或站立中",
+          "description": "杰斯同学在画面左侧地面上站岗放哨中，今天的日常打卡完成！",
           "badge": "已记录",
-          "image": "services/catdaily-journal/assets/styled/2026-04-04/20/wan27_1775305072_0.png",
+          "image": "services/catdaily-journal/assets/styled/2026-04-04/20/wan27_1775306124_0.png",
           "raw_image": "services/catdaily-journal/assets/raw/2026-04-04/20/scout/bathroom.jpg",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-04-04/20/wan27_1775305072_0.png",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-04/20/wan27_1775306124_0.png",
           "location": "画面左侧地面上",
           "activity": "走动或站立中",
           "surroundings": "卫生间内，有马桶，瓷砖地面",
@@ -900,7 +900,7 @@
               "analysis_selected": true
             }
           ],
-          "updated_at": "2026-04-04T20:17:52.565977+08:00"
+          "updated_at": "2026-04-04T20:35:24.890201+08:00"
         }
       ]
     }
@@ -919,5 +919,5 @@
     "temp_max": "24",
     "observed_at": "2026-04-04T14:45"
   },
-  "updated_at": "2026-04-04T20:17:52.566052+08:00"
+  "updated_at": "2026-04-04T20:35:24.890274+08:00"
 }
