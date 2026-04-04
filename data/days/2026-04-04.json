@@ -1,9 +1,9 @@
 {
   "date": "2026-04-04",
   "title": "杰斯 · 2026.04.04 日记",
-  "summary": "昆明今天局部多云，当前 21°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 1/24 个小时槽位，最近一次更新在 12:00。",
-  "cover_summary": "昆明今天局部多云，当前 21°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
-  "cover_image": "services/catdaily-journal/assets/styled/2026-04-04/cover/wan27_1775275535_0.png",
+  "summary": "昆明今天局部多云，当前 22°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 1/24 个小时槽位，最近一次更新在 12:00。",
+  "cover_summary": "昆明今天局部多云，当前 22°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
+  "cover_image": "services/catdaily-journal/assets/styled/2026-04-04/cover/wan27_1775278559_0.png",
   "stats": [
     {
       "label": "吃饭",
@@ -38,21 +38,21 @@
           "camera": "bathroom",
           "camera_label": "卫生间",
           "title": "12:00 杰斯出现了",
-          "description": "12:00 在卫生间拍到了杰斯，位置：画面左侧靠碗处，状态：进食中。",
+          "description": "12:00 在卫生间拍到了杰斯，位置：画面左侧靠窗处，状态：正在进食。",
           "badge": "已找到",
-          "image": "services/catdaily-journal/assets/styled/2026-04-04/12/wan27_1775277874_0.png",
+          "image": "services/catdaily-journal/assets/styled/2026-04-04/12/wan27_1775278674_0.png",
           "raw_image": "services/catdaily-journal/assets/raw/2026-04-04/12/scout/bathroom.jpg",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-04-04/12/wan27_1775277874_0.png",
-          "location": "画面左侧靠碗处",
-          "activity": "进食中",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-04/12/wan27_1775278674_0.png",
+          "location": "画面左侧靠窗处",
+          "activity": "正在进食",
           "surroundings": "卫生间内，有马桶和食碗，瓷砖地面",
-          "prompt": "波普风 Q 版插画，主角是蓝灰色英短猫杰斯。时间 12:00，日期 2026-04-04，摄像头 卫生间。猫在画面左侧靠碗处，状态是进食中，周边环境包括卫生间内，有马桶和食碗，瓷砖地面。画面要可爱、鲜明、手绘感强，适合猫咪日记网站。",
+          "prompt": "1:1正方形构图。波普风 Q 版插画，主角是蓝灰色英短猫杰斯。时间 12:00，日期 2026-04-04，摄像头 卫生间。猫在画面左侧靠窗处，状态是正在进食，周边环境包括卫生间内，有马桶和食碗，瓷砖地面。画面要可爱、鲜明、手绘感强，适合猫咪日记网站。必须是正方形。",
           "analysis": {
             "found": true,
-            "location": "画面左侧靠碗处",
-            "activity": "进食中",
+            "location": "画面左侧靠窗处",
+            "activity": "正在进食",
             "surroundings": "卫生间内，有马桶和食碗，瓷砖地面",
-            "raw_response": "{\"found\":true,\"location\":\"画面左侧靠碗处\",\"activity\":\"进食中\",\"surroundings\":\"卫生间内，有马桶和食碗，瓷砖地面\"}",
+            "raw_response": "{\"found\":true,\"location\":\"画面左侧靠窗处\",\"activity\":\"正在进食\",\"surroundings\":\"卫生间内，有马桶和食碗，瓷砖地面\"}",
             "model": "glm-5.1",
             "provider": "zai"
           },
@@ -94,17 +94,17 @@
               "success": true,
               "analysis": {
                 "found": true,
-                "location": "画面左侧靠碗处",
-                "activity": "进食中",
+                "location": "画面左侧靠窗处",
+                "activity": "正在进食",
                 "surroundings": "卫生间内，有马桶和食碗，瓷砖地面",
-                "raw_response": "{\"found\":true,\"location\":\"画面左侧靠碗处\",\"activity\":\"进食中\",\"surroundings\":\"卫生间内，有马桶和食碗，瓷砖地面\"}",
+                "raw_response": "{\"found\":true,\"location\":\"画面左侧靠窗处\",\"activity\":\"正在进食\",\"surroundings\":\"卫生间内，有马桶和食碗，瓷砖地面\"}",
                 "model": "glm-5.1",
                 "provider": "zai"
               },
               "analysis_selected": true
             }
           ],
-          "updated_at": "2026-04-04T12:44:35.130027+08:00"
+          "updated_at": "2026-04-04T12:57:54.542853+08:00"
         }
       ]
     },
@@ -113,7 +113,7 @@
       "slots": []
     }
   ],
-  "cover_prompt": "参考输入图里猫咪的毛色、脸型和体态特征，生成一张猫咪日记网站的当日封面。主角是杰斯，蓝灰色英短猫，整体做成波普风 Q 版手绘插画。画面地点是昆明，天气信息是局部多云，当前温度 21°C，今日温度范围 11°C 到 24°C。把日期 2026-04-04 和天气文案自然整合进画面，像杂志封面或日记海报一样清晰可读。整体要明亮、可爱、色块大胆、有印刷颗粒感，适合作为猫咪日记站封面图。",
+  "cover_prompt": "生成一张1:1正方形构图的猫咪日记网站当日封面。参考输入图里猫咪的毛色、脸型和体态特征，主角是杰斯，蓝灰色英短猫，整体做成波普风 Q 版手绘插画。画面地点是昆明，天气信息是局部多云，当前温度 22°C，今日温度范围 11°C 到 24°C。把日期 2026-04-04 和天气文案自然整合进画面，像杂志封面或日记海报一样清晰可读。整体要明亮、可爱、色块大胆、有印刷颗粒感，适合作为猫咪日记站封面图。必须是正方形1:1比例。",
   "weather": {
     "source": "open-meteo",
     "location_name": "昆明",
@@ -122,10 +122,10 @@
     "timezone": "Asia/Shanghai",
     "weather_code": 2,
     "weather_text": "局部多云",
-    "current_temp": "21",
+    "current_temp": "22",
     "temp_min": "11",
     "temp_max": "24",
-    "observed_at": "2026-04-04T12:00"
+    "observed_at": "2026-04-04T12:45"
   },
-  "updated_at": "2026-04-04T12:44:35.130123+08:00"
+  "updated_at": "2026-04-04T12:57:54.542974+08:00"
 }
