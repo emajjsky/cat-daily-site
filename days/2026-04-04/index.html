@@ -345,9 +345,13 @@
     <script>
       (() => {
         const lightbox = document.getElementById("image-lightbox");
+        const lightboxDialog = lightbox?.querySelector(".lightbox-dialog");
+        const lightboxCloseButton = lightbox?.querySelector(".lightbox-close");
         const lightboxImage = document.getElementById("lightbox-image");
         const lightboxCaption = document.getElementById("lightbox-caption");
-        if (!lightbox || !lightboxImage || !lightboxCaption) return;
+        if (!lightbox || !lightboxDialog || !lightboxCloseButton || !lightboxImage || !lightboxCaption) return;
+
+        let lastFocusedElement = null;
 
         const closeLightbox = () => {
           lightbox.hidden = true;
@@ -356,17 +360,35 @@
           lightboxImage.alt = "";
           lightboxCaption.textContent = "";
           document.body.classList.remove("lightbox-open");
+          if (lastFocusedElement instanceof HTMLElement) {
+            lastFocusedElement.focus();
+          }
+          lastFocusedElement = null;
+        };
+
+        const resolveImageSrc = (img) => {
+          if (!(img instanceof HTMLImageElement)) return "";
+          if (img.currentSrc) return img.currentSrc;
+          const rawSrc = img.getAttribute("src");
+          if (!rawSrc) return "";
+          try {
+            return new URL(rawSrc, document.baseURI).href;
+          } catch (error) {
+            return rawSrc;
+          }
         };
 
         const openLightbox = (img) => {
-          const src = img.getAttribute("src");
+          const src = resolveImageSrc(img);
           if (!src) return;
+          lastFocusedElement = document.activeElement instanceof HTMLElement ? document.activeElement : null;
           lightboxImage.src = src;
           lightboxImage.alt = img.getAttribute("alt") || "";
           lightboxCaption.textContent = img.getAttribute("alt") || "";
           lightbox.hidden = false;
           lightbox.setAttribute("aria-hidden", "false");
           document.body.classList.add("lightbox-open");
+          lightboxCloseButton.focus();
         };
 
         document.querySelectorAll(".previewable-image").forEach((img) => {
@@ -379,10 +401,17 @@
           });
         });
 
+        lightboxCloseButton.addEventListener("click", closeLightbox);
+
         lightbox.addEventListener("click", (event) => {
-          if (event.target instanceof HTMLElement && event.target.hasAttribute("data-lightbox-close")) {
+          if (!(event.target instanceof HTMLElement)) return;
+          if (event.target.hasAttribute("data-lightbox-close") || event.target === lightboxDialog || !lightboxDialog.contains(event.target)) {
             closeLightbox();
           }
+        });
+
+        lightboxImage.addEventListener("error", () => {
+          lightboxCaption.textContent = "图片加载失败，可以关闭后重试。";
         });
 
         document.addEventListener("keydown", (event) => {
