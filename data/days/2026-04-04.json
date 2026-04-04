@@ -1,7 +1,7 @@
 {
   "date": "2026-04-04",
   "title": "杰斯 · 2026.04.04 日记",
-  "summary": "昆明今天阴天，当前 24°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 20/24 个小时槽位，最近一次更新在 19:00。",
+  "summary": "昆明今天阴天，当前 24°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 21/24 个小时槽位，最近一次更新在 20:00。",
   "cover_summary": "昆明今天阴天，当前 24°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
   "cover_image": "services/catdaily-journal/assets/styled/2026-04-04/cover/wan27_1775280414_0.png",
   "stats": [
@@ -13,14 +13,14 @@
     },
     {
       "label": "喝水",
-      "value": "9 次",
-      "detail": "首次 01:32，末次 19:10，累计 6分钟36秒。",
+      "value": "10 次",
+      "detail": "首次 01:32，末次 20:14，累计 7分钟9秒。",
       "tone": "water"
     },
     {
       "label": "上厕所",
-      "value": "2 次",
-      "detail": "首次 10:34，末次 15:36，累计 2分钟50秒。",
+      "value": "3 次",
+      "detail": "首次 10:34，末次 20:16，累计 4分钟21秒。",
       "tone": "litter"
     }
   ],
@@ -827,6 +827,80 @@
             }
           ],
           "updated_at": "2026-04-04T19:15:40.782787+08:00"
+        },
+        {
+          "time": "20:00",
+          "status": "found",
+          "camera": "bathroom",
+          "camera_label": "卫生间",
+          "title": "20:00 走动或站立中ing",
+          "description": "小家伙在画面左侧地面上警觉地站着，卫生间内，有马桶，瓷砖地面的气氛很惬意。",
+          "badge": "已记录",
+          "image": "services/catdaily-journal/assets/styled/2026-04-04/20/wan27_1775305072_0.png",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-04-04/20/scout/bathroom.jpg",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-04/20/wan27_1775305072_0.png",
+          "location": "画面左侧地面上",
+          "activity": "走动或站立中",
+          "surroundings": "卫生间内，有马桶，瓷砖地面",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间20:00，日期2026-04-04，摄像头卫生间。杰斯在画面左侧地面上，走动或站立中。周边环境：卫生间内，有马桶，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {
+            "found": true,
+            "location": "画面左侧地面上",
+            "activity": "走动或站立中",
+            "surroundings": "卫生间内，有马桶，瓷砖地面",
+            "raw_response": "{\"found\":true,\"location\":\"画面左侧地面上\",\"activity\":\"走动或站立中\",\"surroundings\":\"卫生间内，有马桶，瓷砖地面\"}",
+            "model": "glm-5.1",
+            "provider": "zai"
+          },
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-04/20/scout/laoliu.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-04/20/scout/moss.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-04/20/scout/bathroom.jpg",
+              "success": true,
+              "analysis": {
+                "found": true,
+                "location": "画面左侧地面上",
+                "activity": "走动或站立中",
+                "surroundings": "卫生间内，有马桶，瓷砖地面",
+                "raw_response": "{\"found\":true,\"location\":\"画面左侧地面上\",\"activity\":\"走动或站立中\",\"surroundings\":\"卫生间内，有马桶，瓷砖地面\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              },
+              "analysis_selected": true
+            }
+          ],
+          "updated_at": "2026-04-04T20:17:52.565977+08:00"
         }
       ]
     }
@@ -845,5 +919,5 @@
     "temp_max": "24",
     "observed_at": "2026-04-04T14:45"
   },
-  "updated_at": "2026-04-04T19:48:51.090019+08:00"
+  "updated_at": "2026-04-04T20:17:52.566052+08:00"
 }
