@@ -795,8 +795,8 @@ img {
   position: relative;
   z-index: 1;
   aspect-ratio: 1 / 1;
-  border: 4px solid var(--border);
-  border-radius: 18px;
+  border: 0;
+  border-radius: 14px;
   object-fit: cover;
   background: linear-gradient(135deg, rgba(187, 223, 248, 0.7), rgba(255, 189, 243, 0.6));
 }
@@ -904,8 +904,8 @@ img {
   position: relative;
   z-index: 1;
   aspect-ratio: 1 / 1;
-  border: 4px solid var(--border);
-  border-radius: 16px;
+  border: 0;
+  border-radius: 12px;
   background: linear-gradient(135deg, rgba(187, 223, 248, 0.8), rgba(255, 189, 243, 0.7));
   object-fit: cover;
 }
@@ -916,8 +916,8 @@ img {
   position: relative;
   z-index: 1;
   aspect-ratio: 1 / 1;
-  border: 4px solid var(--border);
-  border-radius: 16px;
+  border: 0;
+  border-radius: 12px;
   background:
     radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.5), transparent 0 32%),
     linear-gradient(135deg, rgba(187, 223, 248, 0.9), rgba(255, 215, 9, 0.5));
