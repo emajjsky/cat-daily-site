@@ -18,11 +18,11 @@
           
         </div>
         <div class="topbar-actions">
-          <a class="button button-primary" href="days/2026-04-03/index.html">查看最新日记</a>
+          <a class="button button-primary" href="days/2026-04-04/index.html">查看最新日记</a>
           <div class="calendar-picker">
             <button id="calendar-trigger" class="date-picker-shell" type="button" aria-expanded="false" aria-controls="calendar-popover">
               <span class="date-picker-label">选择日期</span>
-              <span id="calendar-trigger-text" class="date-picker-value">2026.04.03</span>
+              <span id="calendar-trigger-text" class="date-picker-value">2026.04.04</span>
             </button>
             <div id="calendar-popover" class="calendar-popover" hidden>
               <div class="calendar-head">
@@ -96,11 +96,18 @@
         <h2 class="section-title">最近三天的日记</h2>
         <div class="archive-grid">
           
+            <a class="archive-card" href="days/2026-04-04/index.html">
+              <span class="archive-date">2026.04.04</span>
+              <h3 class="archive-title">2026.04.04 日记</h3>
+              <div class="archive-meta"><span class="archive-meta-chip">吃饭 4 次</span><span class="archive-meta-chip">喝水 5 次</span><span class="archive-meta-chip">上厕所 1 次</span></div>
+              <p class="archive-summary">昆明今天局部多云，当前 21°C，预计 11°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 1/24 个小时槽位，最近一次更新在 12:00。</p>
+            </a>
+            
             <a class="archive-card" href="days/2026-04-03/index.html">
               <span class="archive-date">2026.04.03</span>
               <h3 class="archive-title">2026.04.03 日记</h3>
-              <div class="archive-meta"><span class="archive-meta-chip">吃饭 8 次</span><span class="archive-meta-chip">喝水 13 次</span><span class="archive-meta-chip">上厕所 9 次</span></div>
-              <p class="archive-summary">今天开始把页面和更新策略统一成三段：午夜到清晨、白天时段、傍晚到夜间。下一步会把真实抓拍、位置判断和 Wan2.7 风格图接进每个时段卡片里。</p>
+              <div class="archive-meta"><span class="archive-meta-chip">吃饭 8 次</span><span class="archive-meta-chip">喝水 15 次</span><span class="archive-meta-chip">上厕所 10 次</span></div>
+              <p class="archive-summary">昆明今天局部多云，当前 17°C，预计 14°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。</p>
             </a>
             
             <a class="archive-card" href="days/2026-04-02/index.html">
@@ -110,19 +117,12 @@
               <p class="archive-summary">第二天开始把时间线往真实行为靠拢。页面保持三段式结构，等待后续把巡视原图和 Wan2.7 风格图替换进来。</p>
             </a>
             
-            <a class="archive-card" href="days/2026-04-01/index.html">
-              <span class="archive-date">2026.04.01</span>
-              <h3 class="archive-title">2026.04.01 日记</h3>
-              <div class="archive-meta"><span class="archive-meta-chip">吃饭 15 次</span><span class="archive-meta-chip">喝水 11 次</span><span class="archive-meta-chip">上厕所 14 次</span></div>
-              <p class="archive-summary">这一天先用阶段化骨架跑通流程。凌晨比较安静，白天主要在客厅和猫爬架附近活动，夜里则以休息为主。</p>
-            </a>
-            
         </div>
       </section>
     </div>
     <script>
       (function () {
-        const days = {"2026-04-03": "days/2026-04-03/index.html", "2026-04-02": "days/2026-04-02/index.html", "2026-04-01": "days/2026-04-01/index.html"};
+        const days = {"2026-04-04": "days/2026-04-04/index.html", "2026-04-03": "days/2026-04-03/index.html", "2026-04-02": "days/2026-04-02/index.html", "2026-04-01": "days/2026-04-01/index.html"};
         const trigger = document.getElementById("calendar-trigger");
         const triggerText = document.getElementById("calendar-trigger-text");
         const popover = document.getElementById("calendar-popover");
@@ -139,7 +139,7 @@
           return;
         }
 
-        const selectedDate = "2026-04-03";
+        const selectedDate = "2026-04-04";
         let cursor = new Date(selectedDate + "T00:00:00");
 
         function formatMonthLabel(date) {
