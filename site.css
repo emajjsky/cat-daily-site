@@ -1003,6 +1003,10 @@ body.lightbox-open {
   padding: 28px;
 }
 
+.lightbox[hidden] {
+  display: none !important;
+}
+
 .lightbox-backdrop {
   position: absolute;
   inset: 0;

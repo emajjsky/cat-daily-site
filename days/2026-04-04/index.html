@@ -44,8 +44,8 @@
             
             <article class="stat-card water">
               <p class="stat-label">喝水</p>
-              <p class="stat-value">7 次</p>
-              <p class="stat-detail">首次 01:32，末次 15:20，累计 5分钟17秒。</p>
+              <p class="stat-value">8 次</p>
+              <p class="stat-detail">首次 01:32，末次 17:40，累计 6分钟4秒。</p>
             </article>
             
             <article class="stat-card litter">
@@ -345,11 +345,10 @@
     <script>
       (() => {
         const lightbox = document.getElementById("image-lightbox");
-        const lightboxDialog = lightbox?.querySelector(".lightbox-dialog");
         const lightboxCloseButton = lightbox?.querySelector(".lightbox-close");
         const lightboxImage = document.getElementById("lightbox-image");
         const lightboxCaption = document.getElementById("lightbox-caption");
-        if (!lightbox || !lightboxDialog || !lightboxCloseButton || !lightboxImage || !lightboxCaption) return;
+        if (!lightbox || !lightboxCloseButton || !lightboxImage || !lightboxCaption) return;
 
         let lastFocusedElement = null;
 
@@ -369,6 +368,7 @@
         const resolveImageSrc = (img) => {
           if (!(img instanceof HTMLImageElement)) return "";
           if (img.currentSrc) return img.currentSrc;
+          if (img.src) return img.src;
           const rawSrc = img.getAttribute("src");
           if (!rawSrc) return "";
           try {
@@ -403,12 +403,13 @@
 
         lightboxCloseButton.addEventListener("click", closeLightbox);
 
+        // Keep the interaction deliberately simple: once the preview is open,
+        // any click on the overlay closes it so the page never gets "stuck".
         lightbox.addEventListener("click", (event) => {
-          if (!(event.target instanceof HTMLElement)) return;
-          if (event.target.hasAttribute("data-lightbox-close") || event.target === lightboxDialog || !lightboxDialog.contains(event.target)) {
-            closeLightbox();
-          }
-        });
+          event.preventDefault();
+          event.stopPropagation();
+          closeLightbox();
+        }, true);
 
         lightboxImage.addEventListener("error", () => {
           lightboxCaption.textContent = "图片加载失败，可以关闭后重试。";
