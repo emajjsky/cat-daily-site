@@ -1,10 +1,29 @@
 {
   "date": "2026-04-05",
   "title": "杰斯 · 2026.04.05 日记",
-  "summary": "昆明今天基本晴，当前 16°C，预计 14°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 1/24 个小时槽位，最近一次更新在 00:00。",
+  "summary": "昆明今天基本晴，当前 16°C，预计 14°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 9/24 个小时槽位，最近一次更新在 08:00。",
   "cover_summary": "昆明今天基本晴，当前 16°C，预计 14°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
   "cover_image": "services/catdaily-journal/assets/styled/2026-04-05/cover/wan27_1775318472_0.png",
-  "stats": [],
+  "stats": [
+    {
+      "label": "吃饭",
+      "value": "2 次",
+      "detail": "首次 01:44，末次 06:30，累计 2分钟12秒。",
+      "tone": "food"
+    },
+    {
+      "label": "喝水",
+      "value": "2 次",
+      "detail": "首次 01:11，末次 03:33，累计 2分钟10秒。",
+      "tone": "water"
+    },
+    {
+      "label": "上厕所",
+      "value": "2 次",
+      "detail": "首次 01:12，末次 06:32，累计 3分钟47秒。",
+      "tone": "litter"
+    }
+  ],
   "phases": [
     {
       "slug": "midnight",
@@ -82,12 +101,550 @@
             }
           ],
           "updated_at": "2026-04-05T00:18:37.433135+08:00"
+        },
+        {
+          "time": "01:00",
+          "status": "found",
+          "camera": "bathroom",
+          "camera_label": "卫生间",
+          "title": "蹲坐或站立中",
+          "description": "监控拍到杰斯在画面右下方猫砂盆旁端端正正地坐着，看起来心情不错呢。",
+          "badge": "已记录",
+          "image": "services/catdaily-journal/assets/styled/2026-04-05/01/wan27_1775323014_0.png",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-04-05/01/scout/bathroom.jpg",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-05/01/wan27_1775323014_0.png",
+          "location": "画面右下方猫砂盆旁",
+          "activity": "蹲坐或站立",
+          "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间01:00，日期2026-04-05，摄像头卫生间。杰斯在画面右下方猫砂盆旁，蹲坐或站立。周边环境：卫生间内，有马桶和猫砂盆，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {
+            "found": true,
+            "location": "画面右下方猫砂盆旁",
+            "activity": "蹲坐或站立",
+            "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+            "raw_response": "{\"found\":true,\"location\":\"画面右下方猫砂盆旁\",\"activity\":\"蹲坐或站立\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+            "model": "glm-5.1",
+            "provider": "zai"
+          },
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/01/scout/laoliu.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/01/scout/moss.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/01/scout/bathroom.jpg",
+              "success": true,
+              "analysis": {
+                "found": true,
+                "location": "画面右下方猫砂盆旁",
+                "activity": "蹲坐或站立",
+                "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+                "raw_response": "{\"found\":true,\"location\":\"画面右下方猫砂盆旁\",\"activity\":\"蹲坐或站立\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              },
+              "analysis_selected": true
+            }
+          ],
+          "updated_at": "2026-04-05T01:16:54.441345+08:00"
+        },
+        {
+          "time": "02:00",
+          "status": "found",
+          "camera": "bathroom",
+          "camera_label": "卫生间",
+          "title": "休息中",
+          "description": "小家伙舒舒服服地窝在猫窝里四脚朝天睡得正香，卫生间内，有马桶和猫砂盆，瓷砖地面的气氛很惬意。",
+          "badge": "已记录",
+          "image": "services/catdaily-journal/assets/styled/2026-04-05/02/wan27_1775326591_0.png",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-04-05/02/scout/bathroom.jpg",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-05/02/wan27_1775326591_0.png",
+          "location": "猫窝内，马桶旁",
+          "activity": "休息中",
+          "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间02:00，日期2026-04-05，摄像头卫生间。杰斯在猫窝内，马桶旁，休息中。周边环境：卫生间内，有马桶和猫砂盆，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {
+            "found": true,
+            "location": "猫窝内，马桶旁",
+            "activity": "休息中",
+            "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+            "raw_response": "{\"found\":true,\"location\":\"猫窝内，马桶旁\",\"activity\":\"休息中\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+            "model": "glm-5.1",
+            "provider": "zai"
+          },
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/02/scout/laoliu.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/02/scout/moss.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/02/scout/bathroom.jpg",
+              "success": true,
+              "analysis": {
+                "found": true,
+                "location": "猫窝内，马桶旁",
+                "activity": "休息中",
+                "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+                "raw_response": "{\"found\":true,\"location\":\"猫窝内，马桶旁\",\"activity\":\"休息中\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              },
+              "analysis_selected": true
+            }
+          ],
+          "updated_at": "2026-04-05T02:16:32.104240+08:00"
+        },
+        {
+          "time": "03:00",
+          "status": "found",
+          "camera": "bathroom",
+          "camera_label": "卫生间",
+          "title": "蜷缩休息中",
+          "description": "监控拍到杰斯舒舒服服地窝在猫窝里呼噜噜~做着美梦，看起来心情不错呢。",
+          "badge": "已记录",
+          "image": "services/catdaily-journal/assets/styled/2026-04-05/03/wan27_1775330302_0.png",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-04-05/03/scout/bathroom.jpg",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-05/03/wan27_1775330302_0.png",
+          "location": "猫窝内",
+          "activity": "蜷缩休息中",
+          "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间03:00，日期2026-04-05，摄像头卫生间。杰斯在猫窝内，蜷缩休息中。周边环境：卫生间内，有马桶和猫砂盆，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {
+            "found": true,
+            "location": "猫窝内",
+            "activity": "蜷缩休息中",
+            "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+            "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息中\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+            "model": "glm-5.1",
+            "provider": "zai"
+          },
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/03/scout/laoliu.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/03/scout/moss.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/03/scout/bathroom.jpg",
+              "success": true,
+              "analysis": {
+                "found": true,
+                "location": "猫窝内",
+                "activity": "蜷缩休息中",
+                "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+                "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息中\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              },
+              "analysis_selected": true
+            }
+          ],
+          "updated_at": "2026-04-05T03:18:23.082323+08:00"
+        },
+        {
+          "time": "04:00",
+          "status": "found",
+          "camera": "bathroom",
+          "camera_label": "卫生间",
+          "title": "蜷缩休息中",
+          "description": "监控拍到杰斯舒舒服服地窝在猫窝里团成一个球在睡觉，看起来心情不错呢。",
+          "badge": "已记录",
+          "image": "services/catdaily-journal/assets/styled/2026-04-05/04/wan27_1775333783_0.png",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-04-05/04/scout/bathroom.jpg",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-05/04/wan27_1775333783_0.png",
+          "location": "猫窝内",
+          "activity": "蜷缩休息",
+          "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间04:00，日期2026-04-05，摄像头卫生间。杰斯在猫窝内，蜷缩休息。周边环境：卫生间内，有马桶和猫砂盆，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {
+            "found": true,
+            "location": "猫窝内",
+            "activity": "蜷缩休息",
+            "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+            "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+            "model": "glm-5.1",
+            "provider": "zai"
+          },
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/04/scout/laoliu.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/04/scout/moss.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/04/scout/bathroom.jpg",
+              "success": true,
+              "analysis": {
+                "found": true,
+                "location": "猫窝内",
+                "activity": "蜷缩休息",
+                "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+                "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              },
+              "analysis_selected": true
+            }
+          ],
+          "updated_at": "2026-04-05T04:16:23.762212+08:00"
+        },
+        {
+          "time": "05:00",
+          "status": "found",
+          "camera": "bathroom",
+          "camera_label": "卫生间",
+          "title": "蜷缩休息中",
+          "description": "报告！杰斯舒舒服服地窝在猫窝里呼噜噜~做着美梦，一切正常，精神状态良好。",
+          "badge": "已记录",
+          "image": "services/catdaily-journal/assets/styled/2026-04-05/05/wan27_1775337555_0.png",
+          "raw_image": "",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-05/05/wan27_1775337555_0.png",
+          "location": "猫窝内",
+          "activity": "蜷缩休息",
+          "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间05:00，日期2026-04-05，摄像头卫生间。杰斯在猫窝内，蜷缩休息。周边环境：卫生间内，有马桶和猫砂盆，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {},
+          "captures": [],
+          "updated_at": "2026-04-05T05:19:15.391913+08:00"
+        },
+        {
+          "time": "06:00",
+          "status": "found",
+          "camera": "bathroom",
+          "camera_label": "卫生间",
+          "title": "蜷缩休息中",
+          "description": "杰斯舒舒服服地窝在猫窝里呼噜噜~做着美梦~",
+          "badge": "已记录",
+          "image": "services/catdaily-journal/assets/styled/2026-04-05/06/wan27_1775340972_0.png",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-04-05/06/scout/bathroom.jpg",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-05/06/wan27_1775340972_0.png",
+          "location": "猫窝内",
+          "activity": "蜷缩休息",
+          "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间06:00，日期2026-04-05，摄像头卫生间。杰斯在猫窝内，蜷缩休息。周边环境：卫生间内，有马桶和猫砂盆，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {
+            "found": true,
+            "location": "猫窝内",
+            "activity": "蜷缩休息",
+            "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+            "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+            "model": "glm-5.1",
+            "provider": "zai"
+          },
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/06/scout/laoliu.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/06/scout/moss.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/06/scout/bathroom.jpg",
+              "success": true,
+              "analysis": {
+                "found": true,
+                "location": "猫窝内",
+                "activity": "蜷缩休息",
+                "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+                "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              },
+              "analysis_selected": true
+            }
+          ],
+          "updated_at": "2026-04-05T06:16:13.356605+08:00"
+        },
+        {
+          "time": "07:00",
+          "status": "found",
+          "camera": "bathroom",
+          "camera_label": "卫生间",
+          "title": "蜷缩休息中",
+          "description": "杰斯同学舒舒服服地窝在猫窝里团成一个球在睡觉，今天的日常打卡完成！",
+          "badge": "已记录",
+          "image": "services/catdaily-journal/assets/styled/2026-04-05/07/wan27_1775344568_0.png",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-04-05/07/scout/bathroom.jpg",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-05/07/wan27_1775344568_0.png",
+          "location": "猫窝内",
+          "activity": "蜷缩休息",
+          "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间07:00，日期2026-04-05，摄像头卫生间。杰斯在猫窝内，蜷缩休息。周边环境：卫生间内，有马桶和猫砂盆，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {
+            "found": true,
+            "location": "猫窝内",
+            "activity": "蜷缩休息",
+            "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+            "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+            "model": "glm-5.1",
+            "provider": "zai"
+          },
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/07/scout/laoliu.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/07/scout/moss.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/07/scout/bathroom.jpg",
+              "success": true,
+              "analysis": {
+                "found": true,
+                "location": "猫窝内",
+                "activity": "蜷缩休息",
+                "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+                "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              },
+              "analysis_selected": true
+            }
+          ],
+          "updated_at": "2026-04-05T07:16:08.665712+08:00"
         }
       ]
     },
     {
       "slug": "daylight",
-      "slots": []
+      "slots": [
+        {
+          "time": "08:00",
+          "status": "found",
+          "camera": "bathroom",
+          "camera_label": "卫生间",
+          "title": "蜷缩休息中",
+          "description": "杰斯同学舒舒服服地窝在猫窝里四脚朝天睡得正香，今天的日常打卡完成！",
+          "badge": "已记录",
+          "image": "services/catdaily-journal/assets/styled/2026-04-05/08/wan27_1775348202_0.png",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-04-05/08/scout/bathroom.jpg",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-05/08/wan27_1775348202_0.png",
+          "location": "猫窝内",
+          "activity": "蜷缩休息",
+          "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间08:00，日期2026-04-05，摄像头卫生间。杰斯在猫窝内，蜷缩休息。周边环境：卫生间内，有马桶和猫砂盆，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {
+            "found": true,
+            "location": "猫窝内",
+            "activity": "蜷缩休息",
+            "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+            "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+            "model": "glm-5.1",
+            "provider": "zai"
+          },
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/08/scout/laoliu.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/08/scout/moss.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-05/08/scout/bathroom.jpg",
+              "success": true,
+              "analysis": {
+                "found": true,
+                "location": "猫窝内",
+                "activity": "蜷缩休息",
+                "surroundings": "卫生间内，有马桶和猫砂盆，瓷砖地面",
+                "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息\",\"surroundings\":\"卫生间内，有马桶和猫砂盆，瓷砖地面\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              },
+              "analysis_selected": true
+            }
+          ],
+          "updated_at": "2026-04-05T08:16:42.902365+08:00"
+        }
+      ]
     },
     {
       "slug": "evening",
@@ -108,5 +665,5 @@
     "temp_max": "24",
     "observed_at": "2026-04-05T00:00"
   },
-  "updated_at": "2026-04-05T00:18:37.433216+08:00"
+  "updated_at": "2026-04-05T08:16:42.902432+08:00"
 }
