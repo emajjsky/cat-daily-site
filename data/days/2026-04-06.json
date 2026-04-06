@@ -821,77 +821,21 @@
         },
         {
           "time": "12:00",
-          "status": "found",
-          "camera": "bathroom",
-          "camera_label": "卫生间",
-          "title": "站立中",
-          "description": "小家伙在地面站岗放哨中，卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面的气氛很惬意。",
-          "badge": "卫生间",
-          "image": "services/catdaily-journal/assets/raw/2026-04-06/12/scout/bathroom.jpg",
-          "raw_image": "services/catdaily-journal/assets/raw/2026-04-06/12/scout/bathroom.jpg",
-          "styled_image": "",
-          "location": "地面",
-          "activity": "站立",
-          "surroundings": "卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面",
-          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间12:00，日期2026-04-06，摄像头卫生间。杰斯在地面，站立。周边环境：卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
-          "analysis": {
-            "found": true,
-            "location": "地面",
-            "activity": "站立",
-            "surroundings": "卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面",
-            "raw_response": "{\"found\":true,\"location\":\"地面\",\"activity\":\"站立\",\"surroundings\":\"卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面\"}",
-            "model": "glm-5.1",
-            "provider": "zai"
-          },
-          "captures": [
-            {
-              "camera": "laoliu",
-              "camera_label": "老六",
-              "image": "services/catdaily-journal/assets/raw/2026-04-06/12/scout/laoliu.jpg",
-              "success": true,
-              "analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
-                "model": "glm-5.1",
-                "provider": "zai"
-              }
-            },
-            {
-              "camera": "moss",
-              "camera_label": "Moss",
-              "image": "services/catdaily-journal/assets/raw/2026-04-06/12/scout/moss.jpg",
-              "success": true,
-              "analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
-                "model": "glm-5.1",
-                "provider": "zai"
-              }
-            },
-            {
-              "camera": "bathroom",
-              "camera_label": "卫生间",
-              "image": "services/catdaily-journal/assets/raw/2026-04-06/12/scout/bathroom.jpg",
-              "success": true,
-              "analysis": {
-                "found": true,
-                "location": "地面",
-                "activity": "站立",
-                "surroundings": "卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面",
-                "raw_response": "{\"found\":true,\"location\":\"地面\",\"activity\":\"站立\",\"surroundings\":\"卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面\"}",
-                "model": "glm-5.1",
-                "provider": "zai"
-              },
-              "analysis_selected": true
-            }
-          ],
-          "updated_at": "2026-04-06T12:16:30.218341+08:00"
+          "status": "not_found",
+          "camera": "",
+          "camera_label": "",
+          "title": "躲猫猫中",
+          "description": "杰斯这个小时藏起来了，监控里翻了三个摄像头都没找到。可能躲在那个只有它知道的秘密基地里偷着乐呢~",
+          "badge": "躲猫猫",
+          "image": "services/catdaily-journal/assets/styled/2026-04-06/12/wan27_1775450178_0.png",
+          "raw_image": "",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-06/12/wan27_1775450178_0.png",
+          "location": "",
+          "activity": "躲猫猫",
+          "surroundings": "",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密灰蓝色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。主题是躲猫猫，杰斯藏在窗帘后、沙发下或纸箱里，只露出尾巴或一双古铜色大眼睛。画面保留日期2026-04-06与时间12:00。背景画出家中场景：家具、地毯、猫咪玩具散落。整体可爱、明亮、手绘感、印刷颗粒感。必须是正方形。",
+          "captures": [],
+          "updated_at": "2026-04-06T12:36:19.311393+08:00"
         }
       ]
     },
@@ -914,5 +858,5 @@
     "temp_max": "26",
     "observed_at": "2026-04-06T00:00"
   },
-  "updated_at": "2026-04-06T12:16:30.218480+08:00"
+  "updated_at": "2026-04-06T12:36:19.311523+08:00"
 }
