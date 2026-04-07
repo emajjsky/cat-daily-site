@@ -1,26 +1,26 @@
 {
   "date": "2026-04-07",
   "title": "杰斯 · 2026.04.07 日记",
-  "summary": "昆明今天阴天，当前 18°C，预计 14°C 到 26°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 16/24 个小时槽位，最近一次更新在 15:00。",
+  "summary": "昆明今天阴天，当前 18°C，预计 14°C 到 26°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 17/24 个小时槽位，最近一次更新在 16:00。",
   "cover_summary": "昆明今天阴天，当前 18°C，预计 14°C 到 26°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
   "cover_image": "services/catdaily-journal/assets/styled/2026-04-07/cover/wan27_1775491271_0.png",
   "stats": [
     {
       "label": "吃饭",
-      "value": "5 次",
-      "detail": "首次 01:12，末次 14:24，累计 6分钟50秒。",
+      "value": "6 次",
+      "detail": "首次 01:12，末次 15:54，累计 8分钟46秒。",
       "tone": "food"
     },
     {
       "label": "喝水",
-      "value": "6 次",
-      "detail": "首次 01:11，末次 13:02，累计 4分钟34秒。",
+      "value": "7 次",
+      "detail": "首次 01:11，末次 15:50，累计 4分钟54秒。",
       "tone": "water"
     },
     {
       "label": "上厕所",
-      "value": "3 次",
-      "detail": "首次 09:05，末次 14:30，累计 2分钟16秒。",
+      "value": "5 次",
+      "detail": "首次 09:05，末次 16:05，累计 4分钟35秒。",
       "tone": "litter"
     }
   ],
@@ -1094,7 +1094,82 @@
     },
     {
       "slug": "evening",
-      "slots": []
+      "slots": [
+        {
+          "time": "16:00",
+          "status": "found",
+          "camera": "bathroom",
+          "camera_label": "卫生间",
+          "title": "坐立中",
+          "description": "杰斯同学在地面端端正正地坐着，今天的日常打卡完成！",
+          "badge": "卫生间",
+          "image": "services/catdaily-journal/assets/styled/2026-04-07/16/wan27_1775549849_0.png",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-04-07/16/scout/bathroom.jpg",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-07/16/wan27_1775549849_0.png",
+          "location": "地面",
+          "activity": "坐立",
+          "surroundings": "卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间16:00，日期2026-04-07，摄像头卫生间。杰斯在地面，坐立。周边环境：卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {
+            "found": true,
+            "location": "地面",
+            "activity": "坐立",
+            "surroundings": "卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面",
+            "raw_response": "{\"found\":true,\"location\":\"地面\",\"activity\":\"坐立\",\"surroundings\":\"卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面\"}",
+            "model": "glm-5.1",
+            "provider": "zai"
+          },
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-07/16/scout/laoliu.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-07/16/scout/moss.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-07/16/scout/bathroom.jpg",
+              "success": true,
+              "analysis": {
+                "found": true,
+                "location": "地面",
+                "activity": "坐立",
+                "surroundings": "卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面",
+                "raw_response": "{\"found\":true,\"location\":\"地面\",\"activity\":\"坐立\",\"surroundings\":\"卫生间内，有猫窝、猫砂盆、食盆、水盆，瓷砖地面\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              },
+              "analysis_selected": true
+            }
+          ],
+          "updated_at": "2026-04-07T16:17:29.730544+08:00"
+        }
+      ]
     }
   ],
   "cover_prompt": "1:1正方形构图猫咪日记封面。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色/琥珀色眼睛、粗短四肢、胖嘟嘟身材。整体波普风Q版手绘插画风格。地点昆明，天气阴天，当前18°C，今日14°C~26°C。把日期2026-04-07和天气文案像杂志封面一样醒目排布。背景必须画出与天气匹配的室内/窗外场景（如晴天窗外阳光、多云天室内暖光等）。整体明亮、可爱、色块大胆、印刷颗粒感。必须是1:1正方形。",
@@ -1111,5 +1186,5 @@
     "temp_max": "26",
     "observed_at": "2026-04-07T00:00"
   },
-  "updated_at": "2026-04-07T15:17:24.475678+08:00"
+  "updated_at": "2026-04-07T16:17:29.730656+08:00"
 }
