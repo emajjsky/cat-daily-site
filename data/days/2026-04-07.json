@@ -1,7 +1,7 @@
 {
   "date": "2026-04-07",
   "title": "杰斯 · 2026.04.07 日记",
-  "summary": "昆明今天阴天，当前 18°C，预计 14°C 到 26°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 8/24 个小时槽位，最近一次更新在 07:00。",
+  "summary": "昆明今天阴天，当前 18°C，预计 14°C 到 26°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 9/24 个小时槽位，最近一次更新在 08:00。",
   "cover_summary": "昆明今天阴天，当前 18°C，预计 14°C 到 26°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
   "cover_image": "services/catdaily-journal/assets/styled/2026-04-07/cover/wan27_1775491271_0.png",
   "stats": [
@@ -525,7 +525,64 @@
     },
     {
       "slug": "daylight",
-      "slots": []
+      "slots": [
+        {
+          "time": "08:00",
+          "status": "found",
+          "camera": "laoliu",
+          "camera_label": "老六",
+          "title": "蜷缩休息中",
+          "description": "杰斯舒舒服服地窝在猫窝里团成一个球在睡觉~",
+          "badge": "客厅",
+          "image": "services/catdaily-journal/assets/styled/2026-04-07/08/wan27_1775520959_0.png",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-04-07/08/scout/laoliu.jpg",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-07/08/wan27_1775520959_0.png",
+          "location": "猫窝内",
+          "activity": "蜷缩休息",
+          "surroundings": "卫生间内，有马桶、猫砂盆、食盆、水盆，瓷砖地面",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间08:00，日期2026-04-07，摄像头老六。杰斯在猫窝内，蜷缩休息。周边环境：卫生间内，有马桶、猫砂盆、食盆、水盆，瓷砖地面。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {
+            "found": true,
+            "location": "猫窝内",
+            "activity": "蜷缩休息",
+            "surroundings": "卫生间内，有马桶、猫砂盆、食盆、水盆，瓷砖地面",
+            "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息\",\"surroundings\":\"卫生间内，有马桶、猫砂盆、食盆、水盆，瓷砖地面\"}\n{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+            "model": "glm-5.1",
+            "provider": "zai"
+          },
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-07/08/scout/laoliu.jpg",
+              "success": true,
+              "analysis": {
+                "found": true,
+                "location": "猫窝内",
+                "activity": "蜷缩休息",
+                "surroundings": "卫生间内，有马桶、猫砂盆、食盆、水盆，瓷砖地面",
+                "raw_response": "{\"found\":true,\"location\":\"猫窝内\",\"activity\":\"蜷缩休息\",\"surroundings\":\"卫生间内，有马桶、猫砂盆、食盆、水盆，瓷砖地面\"}\n{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              },
+              "analysis_selected": true
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-07/08/scout/moss.jpg",
+              "success": true
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-07/08/scout/bathroom.jpg",
+              "success": true
+            }
+          ],
+          "updated_at": "2026-04-07T08:15:59.906256+08:00"
+        }
+      ]
     },
     {
       "slug": "evening",
@@ -546,5 +603,5 @@
     "temp_max": "26",
     "observed_at": "2026-04-07T00:00"
   },
-  "updated_at": "2026-04-07T07:49:33.216160+08:00"
+  "updated_at": "2026-04-07T08:15:59.906332+08:00"
 }
