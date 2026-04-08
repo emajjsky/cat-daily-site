@@ -1,10 +1,29 @@
 {
   "date": "2026-04-09",
   "title": "杰斯 · 2026.04.09 日记",
-  "summary": "昆明今天基本晴，当前 16°C，预计 13°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 1/24 个小时槽位，最近一次更新在 00:00。",
+  "summary": "昆明今天基本晴，当前 16°C，预计 13°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 2/24 个小时槽位，最近一次更新在 01:00。",
   "cover_summary": "昆明今天基本晴，当前 16°C，预计 13°C 到 24°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
   "cover_image": "services/catdaily-journal/assets/styled/2026-04-09/cover/wan27_1775664070_0.png",
-  "stats": [],
+  "stats": [
+    {
+      "label": "吃饭",
+      "value": "2 次",
+      "detail": "首次 00:29，末次 00:46，累计 4分钟1秒。",
+      "tone": "food"
+    },
+    {
+      "label": "喝水",
+      "value": "2 次",
+      "detail": "首次 00:31，末次 00:46，累计 44秒。",
+      "tone": "water"
+    },
+    {
+      "label": "上厕所",
+      "value": "0 次",
+      "detail": "当天暂无记录。",
+      "tone": "litter"
+    }
+  ],
   "phases": [
     {
       "slug": "midnight",
@@ -72,6 +91,70 @@
             }
           ],
           "updated_at": "2026-04-09T00:17:19.337165+08:00"
+        },
+        {
+          "time": "01:00",
+          "status": "not_found",
+          "camera": "",
+          "camera_label": "",
+          "title": "躲猫猫中",
+          "description": "杰斯这个小时藏起来了，监控里翻了三个摄像头都没找到。可能躲在那个只有它知道的秘密基地里偷着乐呢~",
+          "badge": "躲猫猫",
+          "image": "services/catdaily-journal/assets/styled/2026-04-09/01/wan27_1775668590_0.png",
+          "raw_image": "",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-09/01/wan27_1775668590_0.png",
+          "location": "",
+          "activity": "躲猫猫",
+          "surroundings": "",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。主题是躲猫猫，杰斯藏在窗帘后、沙发下或纸箱里，只露出尾巴或一双古铜色大眼睛。画面保留日期2026-04-09与时间01:00。背景画出家中场景：家具、地毯、猫咪玩具散落。整体可爱、明亮、手绘感、印刷颗粒感。必须是正方形。",
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-09/01/scout/laoliu.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-09/01/scout/moss.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-09/01/scout/bathroom.jpg",
+              "success": true,
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
+            }
+          ],
+          "updated_at": "2026-04-09T01:16:31.065439+08:00"
         }
       ]
     },
@@ -98,5 +181,5 @@
     "temp_max": "24",
     "observed_at": "2026-04-09T00:00"
   },
-  "updated_at": "2026-04-09T00:17:19.337333+08:00"
+  "updated_at": "2026-04-09T01:16:31.065597+08:00"
 }
