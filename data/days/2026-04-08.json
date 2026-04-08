@@ -1,7 +1,7 @@
 {
   "date": "2026-04-08",
   "title": "杰斯 · 2026.04.08 日记",
-  "summary": "昆明今天晴朗，当前 17°C，预计 14°C 到 22°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 22/24 个小时槽位，最近一次更新在 21:00。",
+  "summary": "昆明今天晴朗，当前 17°C，预计 14°C 到 22°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 23/24 个小时槽位，最近一次更新在 22:00。",
   "cover_summary": "昆明今天晴朗，当前 17°C，预计 14°C 到 22°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
   "cover_image": "services/catdaily-journal/assets/styled/2026-04-08/cover/wan27_1775577672_0.png",
   "stats": [
@@ -13,8 +13,8 @@
     },
     {
       "label": "喝水",
-      "value": "14 次",
-      "detail": "首次 02:29，末次 21:24，累计 9分钟。",
+      "value": "15 次",
+      "detail": "首次 02:29，末次 21:47，累计 9分钟45秒。",
       "tone": "water"
     },
     {
@@ -1573,9 +1573,9 @@
           "title": "躲猫猫中",
           "description": "杰斯这个小时藏起来了，监控里翻了三个摄像头都没找到。可能躲在那个只有它知道的秘密基地里偷着乐呢~",
           "badge": "躲猫猫",
-          "image": "services/catdaily-journal/assets/styled/2026-04-08/21/wan27_1775655517_0.png",
+          "image": "services/catdaily-journal/assets/styled/2026-04-08/21/wan27_1775655661_0.png",
           "raw_image": "",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-04-08/21/wan27_1775655517_0.png",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-08/21/wan27_1775655661_0.png",
           "location": "",
           "activity": "躲猫猫",
           "surroundings": "",
@@ -1586,7 +1586,15 @@
               "camera_label": "老六",
               "image": "services/catdaily-journal/assets/raw/2026-04-08/21/scout/laoliu.jpg",
               "success": true,
-              "analysis_error": "OpenClaw 返回中没有 payloads"
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
             },
             {
               "camera": "moss",
@@ -1619,7 +1627,64 @@
               }
             }
           ],
-          "updated_at": "2026-04-08T21:38:37.996995+08:00"
+          "updated_at": "2026-04-08T21:41:03.734217+08:00"
+        },
+        {
+          "time": "22:00",
+          "status": "found",
+          "camera": "moss",
+          "camera_label": "Moss",
+          "title": "坐立中",
+          "description": "监控拍到杰斯在沙发旁端端正正地坐着，看起来心情不错呢。",
+          "badge": "客厅",
+          "image": "services/catdaily-journal/assets/styled/2026-04-08/22/wan27_1775657817_0.png",
+          "raw_image": "services/catdaily-journal/assets/raw/2026-04-08/22/scout/moss.jpg",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-08/22/wan27_1775657817_0.png",
+          "location": "沙发旁",
+          "activity": "坐立",
+          "surroundings": "客厅内，有电视、沙发、茶几、画架等家具",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色眼睛、粗短四肢、胖嘟嘟身材。时间22:00，日期2026-04-08，摄像头Moss。杰斯在沙发旁，坐立。周边环境：客厅内，有电视、沙发、茶几、画架等家具。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。整体可爱、鲜明、手绘感强、印刷颗粒感。必须是正方形。",
+          "analysis": {
+            "found": true,
+            "location": "沙发旁",
+            "activity": "坐立",
+            "surroundings": "客厅内，有电视、沙发、茶几、画架等家具",
+            "raw_response": "{\"found\":true,\"location\":\"沙发旁\",\"activity\":\"坐立\",\"surroundings\":\"客厅内，有电视、沙发、茶几、画架等家具\"}",
+            "model": "glm-5.1",
+            "provider": "zai"
+          },
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-08/22/scout/laoliu.jpg",
+              "success": true,
+              "analysis_error": "OpenClaw 返回中没有 payloads"
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-08/22/scout/moss.jpg",
+              "success": true,
+              "analysis": {
+                "found": true,
+                "location": "沙发旁",
+                "activity": "坐立",
+                "surroundings": "客厅内，有电视、沙发、茶几、画架等家具",
+                "raw_response": "{\"found\":true,\"location\":\"沙发旁\",\"activity\":\"坐立\",\"surroundings\":\"客厅内，有电视、沙发、茶几、画架等家具\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              },
+              "analysis_selected": true
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-08/22/scout/bathroom.jpg",
+              "success": true
+            }
+          ],
+          "updated_at": "2026-04-08T22:16:58.331798+08:00"
         }
       ]
     }
@@ -1638,5 +1703,5 @@
     "temp_max": "22",
     "observed_at": "2026-04-08T00:00"
   },
-  "updated_at": "2026-04-08T21:38:37.997231+08:00"
+  "updated_at": "2026-04-08T22:16:58.331934+08:00"
 }
