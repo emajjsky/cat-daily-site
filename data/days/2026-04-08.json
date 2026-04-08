@@ -13,8 +13,8 @@
     },
     {
       "label": "喝水",
-      "value": "13 次",
-      "detail": "首次 02:29，末次 20:56，累计 7分钟51秒。",
+      "value": "14 次",
+      "detail": "首次 02:29，末次 21:24，累计 9分钟。",
       "tone": "water"
     },
     {
@@ -1573,9 +1573,9 @@
           "title": "躲猫猫中",
           "description": "杰斯这个小时藏起来了，监控里翻了三个摄像头都没找到。可能躲在那个只有它知道的秘密基地里偷着乐呢~",
           "badge": "躲猫猫",
-          "image": "services/catdaily-journal/assets/styled/2026-04-08/21/wan27_1775654244_0.png",
+          "image": "services/catdaily-journal/assets/styled/2026-04-08/21/wan27_1775655517_0.png",
           "raw_image": "",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-04-08/21/wan27_1775654244_0.png",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-08/21/wan27_1775655517_0.png",
           "location": "",
           "activity": "躲猫猫",
           "surroundings": "",
@@ -1586,15 +1586,7 @@
               "camera_label": "老六",
               "image": "services/catdaily-journal/assets/raw/2026-04-08/21/scout/laoliu.jpg",
               "success": true,
-              "analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
-                "model": "glm-5.1",
-                "provider": "zai"
-              }
+              "analysis_error": "OpenClaw 返回中没有 payloads"
             },
             {
               "camera": "moss",
@@ -1627,7 +1619,7 @@
               }
             }
           ],
-          "updated_at": "2026-04-08T21:17:25.620333+08:00"
+          "updated_at": "2026-04-08T21:38:37.996995+08:00"
         }
       ]
     }
@@ -1646,5 +1638,5 @@
     "temp_max": "22",
     "observed_at": "2026-04-08T00:00"
   },
-  "updated_at": "2026-04-08T21:17:25.620440+08:00"
+  "updated_at": "2026-04-08T21:38:37.997231+08:00"
 }
