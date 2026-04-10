@@ -849,13 +849,13 @@
           "title": "躲猫猫中",
           "description": "杰斯这个小时藏起来了，监控里翻了三个摄像头都没找到。可能躲在那个只有它知道的秘密基地里偷着乐呢~",
           "badge": "躲猫猫",
-          "image": "services/catdaily-journal/assets/styled/2026-04-10/13/wan27_1775798215_0.png",
+          "image": "services/catdaily-journal/assets/styled/2026-04-10/13/wan27_1775798518_0.png",
           "raw_image": "",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-04-10/13/wan27_1775798215_0.png",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-10/13/wan27_1775798518_0.png",
           "location": "",
           "activity": "躲猫猫",
           "surroundings": "",
-          "prompt": "1:1正方形构图。波普风Q版手绘插画风格，大胆色块，明亮配色，印刷颗粒感质感。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色/琥珀色眼睛、粗短四肢、胖嘟嘟身材、耳朵小而圆润、脖子粗短几乎看不见。主题：躲猫猫！杰斯挤进猫隧道入口，出口处只能看到一条晃来晃去的粗尾巴和两只后脚丫，肉垫朝天。。画面要有日期2026-04-10与时间13:00的标注，像杂志排版一样融入画面。背景画出温馨家中场景：家具、地毯、猫咪玩具散落。整体搞笑可爱、色调明亮、充满趣味。必须是正方形。",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画风格，大胆色块，明亮配色，印刷颗粒感质感。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色/琥珀色眼睛、粗短四肢、胖嘟嘟身材、耳朵小而圆润、脖子粗短几乎看不见。主题：躲猫猫！杰斯缩在沙发靠垫缝里，只露出一对圆耳朵和一条弯曲的尾巴尖，耳朵还在机警地转动。。画面要有日期2026-04-10与时间13:00的标注，像杂志排版一样融入画面。背景画出温馨家中场景：家具、地毯、猫咪玩具散落。整体搞笑可爱、色调明亮、充满趣味。必须是正方形。",
           "captures": [
             {
               "camera": "laoliu",
@@ -892,10 +892,18 @@
               "camera_label": "卫生间",
               "image": "services/catdaily-journal/assets/raw/2026-04-10/13/scout/bathroom.jpg",
               "success": true,
-              "analysis_error": "OpenClaw 返回中没有 payloads"
+              "analysis": {
+                "found": false,
+                "location": "",
+                "activity": "",
+                "surroundings": "",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "model": "glm-5.1",
+                "provider": "zai"
+              }
             }
           ],
-          "updated_at": "2026-04-10T13:16:56.228343+08:00"
+          "updated_at": "2026-04-10T13:21:59.191593+08:00"
         }
       ]
     },
@@ -918,5 +926,5 @@
     "temp_max": "20",
     "observed_at": "2026-04-10T00:00"
   },
-  "updated_at": "2026-04-10T13:20:48.314337+08:00"
+  "updated_at": "2026-04-10T13:21:59.191706+08:00"
 }
