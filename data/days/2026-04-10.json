@@ -665,9 +665,9 @@
           "title": "躲猫猫中",
           "description": "杰斯这个小时藏起来了，监控里翻了三个摄像头都没找到。可能躲在那个只有它知道的秘密基地里偷着乐呢~",
           "badge": "躲猫猫",
-          "image": "",
+          "image": "services/catdaily-journal/assets/styled/2026-04-10/10/wan27_1775800541_0.png",
           "raw_image": "",
-          "styled_image": "",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-10/10/wan27_1775800541_0.png",
           "location": "",
           "activity": "躲猫猫",
           "surroundings": "",
@@ -683,7 +683,7 @@
                 "location": "",
                 "activity": "",
                 "surroundings": "",
-                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}\n\nHEARTBEAT_OK",
                 "model": "glm-5.1",
                 "provider": "zai"
               }
@@ -693,15 +693,7 @@
               "camera_label": "Moss",
               "image": "services/catdaily-journal/assets/raw/2026-04-10/10/scout/moss.jpg",
               "success": true,
-              "analysis": {
-                "found": false,
-                "location": "",
-                "activity": "",
-                "surroundings": "",
-                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
-                "model": "glm-5.1",
-                "provider": "zai"
-              }
+              "analysis_error": "未找到可解析的 JSON 对象"
             },
             {
               "camera": "bathroom",
@@ -713,13 +705,13 @@
                 "location": "",
                 "activity": "",
                 "surroundings": "",
-                "raw_response": "{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
+                "raw_response": "全部已分析过：\n\n**10:00 Moss：**\n{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}\n\n**10:00 卫生间：**\n{\"found\":false,\"location\":\"\",\"activity\":\"\",\"surroundings\":\"\"}",
                 "model": "glm-5.1",
                 "provider": "zai"
               }
             }
           ],
-          "updated_at": "2026-04-10T13:12:38.131814+08:00"
+          "updated_at": "2026-04-10T13:55:41.959896+08:00"
         },
         {
           "time": "11:00",
@@ -926,5 +918,5 @@
     "temp_max": "20",
     "observed_at": "2026-04-10T00:00"
   },
-  "updated_at": "2026-04-10T13:21:59.191706+08:00"
+  "updated_at": "2026-04-10T13:55:41.960005+08:00"
 }
