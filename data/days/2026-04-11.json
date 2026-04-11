@@ -401,20 +401,20 @@
           "title": "躲猫猫中",
           "description": "杰斯这个小时藏起来了，监控里翻了三个摄像头都没找到。可能躲在那个只有它知道的秘密基地里偷着乐呢~",
           "badge": "躲猫猫",
-          "image": "services/catdaily-journal/assets/styled/2026-04-11/09/wan27_1775870305_0.png",
+          "image": "services/catdaily-journal/assets/styled/2026-04-11/09/wan27_1775894244_0.png",
           "raw_image": "",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-04-11/09/wan27_1775870305_0.png",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-11/09/wan27_1775894244_0.png",
           "location": "",
           "activity": "躲猫猫",
           "surroundings": "",
-          "prompt": "1:1正方形构图。波普风Q版手绘插画风格，大胆色块，明亮配色，印刷颗粒感质感。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色/琥珀色眼睛、粗短四肢、胖嘟嘟身材、耳朵小而圆润、脖子粗短几乎看不见。主题：躲猫猫！杰斯躲在花盆后面，圆脸被叶子挡住一半，只露出一只琥珀色大眼睛偷偷观察外面，胡须从叶子缝隙伸出来。。画面要有日期2026-04-11与时间09:00的标注，像杂志排版一样融入画面。背景画出温馨家中场景：家具、地毯、猫咪玩具散落。整体搞笑可爱、色调明亮、充满趣味。必须是正方形。",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画风格，大胆色块，明亮配色，印刷颗粒感质感。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色/琥珀色眼睛、粗短四肢、胖嘟嘟身材、耳朵小而圆润、脖子粗短几乎看不见。主题：躲猫猫！杰斯钻进纸箱只露出半张脸和一双古铜色大眼睛，眼睛里满是狡黠的笑意，纸箱上写着'此箱已被征用'。。画面要有日期2026-04-11与时间09:00的标注，像杂志排版一样融入画面。背景画出温馨家中场景：家具、地毯、猫咪玩具散落。整体搞笑可爱、色调明亮、充满趣味。必须是正方形。",
           "captures": [
             {
               "camera": "laoliu",
               "camera_label": "老六",
               "image": "services/catdaily-journal/assets/raw/2026-04-11/09/scout/laoliu.jpg",
-              "success": true,
-              "analysis_error": "未找到可解析的 JSON 对象"
+              "success": false,
+              "error": "命令超时(20s): ffmpeg -hide_banner -loglevel error -rtsp_transport tcp -i rtsp://admin:an132155@192.168.1.4:554/1/2 -frames:v 1 -q:v 2 /Users/ershixiong/.openclaw/workspace/services/catdaily-journal/assets/raw/2026-04-11/09/scout/laoliu.jpg"
             },
             {
               "camera": "moss",
@@ -431,7 +431,7 @@
               "analysis_error": "未找到可解析的 JSON 对象"
             }
           ],
-          "updated_at": "2026-04-11T09:18:25.820791+08:00"
+          "updated_at": "2026-04-11T15:57:24.998524+08:00"
         },
         {
           "time": "10:00",
@@ -694,5 +694,5 @@
     "temp_max": "22",
     "observed_at": "2026-04-11T00:00"
   },
-  "updated_at": "2026-04-11T15:55:35.863136+08:00"
+  "updated_at": "2026-04-11T15:57:24.998604+08:00"
 }
