@@ -441,9 +441,9 @@
           "title": "躲猫猫中",
           "description": "杰斯这个小时藏起来了，监控里翻了三个摄像头都没找到。可能躲在那个只有它知道的秘密基地里偷着乐呢~",
           "badge": "躲猫猫",
-          "image": "services/catdaily-journal/assets/styled/2026-04-11/10/wan27_1775873894_0.png",
+          "image": "services/catdaily-journal/assets/styled/2026-04-11/10/wan27_1775894352_0.png",
           "raw_image": "",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-04-11/10/wan27_1775873894_0.png",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-11/10/wan27_1775894352_0.png",
           "location": "",
           "activity": "躲猫猫",
           "surroundings": "",
@@ -453,8 +453,8 @@
               "camera": "laoliu",
               "camera_label": "老六",
               "image": "services/catdaily-journal/assets/raw/2026-04-11/10/scout/laoliu.jpg",
-              "success": true,
-              "analysis_error": "未找到可解析的 JSON 对象"
+              "success": false,
+              "error": "命令超时(20s): ffmpeg -hide_banner -loglevel error -rtsp_transport tcp -i rtsp://admin:an132155@192.168.1.4:554/1/2 -frames:v 1 -q:v 2 /Users/ershixiong/.openclaw/workspace/services/catdaily-journal/assets/raw/2026-04-11/10/scout/laoliu.jpg"
             },
             {
               "camera": "moss",
@@ -471,7 +471,7 @@
               "analysis_error": "未找到可解析的 JSON 对象"
             }
           ],
-          "updated_at": "2026-04-11T10:18:14.551140+08:00"
+          "updated_at": "2026-04-11T15:59:12.860892+08:00"
         },
         {
           "time": "11:00",
@@ -694,5 +694,5 @@
     "temp_max": "22",
     "observed_at": "2026-04-11T00:00"
   },
-  "updated_at": "2026-04-11T15:57:24.998604+08:00"
+  "updated_at": "2026-04-11T15:59:12.861012+08:00"
 }
