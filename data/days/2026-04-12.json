@@ -1,0 +1,37 @@
+{
+  "date": "2026-04-12",
+  "title": "杰斯 · 2026.04.12 日记",
+  "summary": "昆明今天晴朗，当前 14°C，预计 10°C 到 22°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
+  "cover_summary": "昆明今天晴朗，当前 14°C，预计 10°C 到 22°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
+  "cover_image": "services/catdaily-journal/assets/styled/2026-04-12/cover/wan27_1775923271_0.png",
+  "stats": [],
+  "phases": [
+    {
+      "slug": "midnight",
+      "slots": []
+    },
+    {
+      "slug": "daylight",
+      "slots": []
+    },
+    {
+      "slug": "evening",
+      "slots": []
+    }
+  ],
+  "cover_prompt": "1:1正方形构图猫咪日记封面。主角是英国短毛蓝猫杰斯：圆脸微胖、浓密纯蓝灰色短毛无花纹、大而圆的亮金色琥珀色眼睛、粉色小鼻子、粗短四肢、圆滚滚胖嘟嘟身材、尾巴中等长度尾尖微圆。整体波普风Q版手绘插画风格，线条圆润柔和，色块大胆鲜明。地点昆明，天气晴朗，当前14°C，今日10°C~22°C。把日期2026-04-12和天气文案像杂志封面一样醒目排布。背景必须画出与天气匹配的室内/窗外场景（如晴天窗外阳光、多云天室内暖光等）。整体明亮、可爱、色块大胆、印刷颗粒感。必须是1:1正方形。",
+  "weather": {
+    "source": "open-meteo",
+    "location_name": "昆明",
+    "latitude": 25.0389,
+    "longitude": 102.7183,
+    "timezone": "Asia/Shanghai",
+    "weather_code": 0,
+    "weather_text": "晴朗",
+    "current_temp": "14",
+    "temp_min": "10",
+    "temp_max": "22",
+    "observed_at": "2026-04-12T00:00"
+  },
+  "updated_at": "2026-04-12T00:01:12.171150+08:00"
+}
