@@ -739,43 +739,22 @@
         },
         {
           "time": "18:00",
-          "status": "not_found",
-          "camera": "",
-          "camera_label": "",
-          "title": "躲猫猫中",
-          "description": "杰斯这个小时藏起来了，监控里翻了三个摄像头都没找到。可能躲在那个只有它知道的秘密基地里偷着乐呢~",
-          "badge": "躲猫猫",
-          "image": "services/catdaily-journal/assets/styled/2026-04-11/18/wan27_1775902722_0.png",
+          "status": "found",
+          "camera": "moss",
+          "camera_label": "Moss",
+          "title": "在猫窝里休息中",
+          "description": "报告！杰斯在阳台上晒太阳看风景四脚朝天睡得正香，一切正常，精神状态良好。",
+          "badge": "客厅",
+          "image": "services/catdaily-journal/assets/styled/2026-04-11/18/wan27_1775907541_0.png",
           "raw_image": "",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-04-11/18/wan27_1775902722_0.png",
-          "location": "",
-          "activity": "躲猫猫",
-          "surroundings": "",
-          "prompt": "1:1正方形构图。波普风Q版手绘插画风格，大胆色块，明亮配色，印刷颗粒感质感。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色/琥珀色眼睛、粗短四肢、胖嘟嘟身材、耳朵小而圆润、脖子粗短几乎看不见。主题：躲猫猫！杰斯躲在窗帘后面，只露出一条蓬松的灰蓝色大尾巴和圆滚滚的屁股，尾巴尖得意地一甩一甩，窗帘被撑出一个猫形凸起。。画面要有日期2026-04-11与时间18:00的标注，像杂志排版一样融入画面。背景画出温馨家中场景：家具、地毯、猫咪玩具散落。整体搞笑可爱、色调明亮、充满趣味。必须是正方形。",
-          "captures": [
-            {
-              "camera": "laoliu",
-              "camera_label": "老六",
-              "image": "services/catdaily-journal/assets/raw/2026-04-11/18/scout/laoliu.jpg",
-              "success": true,
-              "analysis_error": "未找到可解析的 JSON 对象"
-            },
-            {
-              "camera": "moss",
-              "camera_label": "Moss",
-              "image": "services/catdaily-journal/assets/raw/2026-04-11/18/scout/moss.jpg",
-              "success": true,
-              "analysis_error": "未找到可解析的 JSON 对象"
-            },
-            {
-              "camera": "bathroom",
-              "camera_label": "卫生间",
-              "image": "services/catdaily-journal/assets/raw/2026-04-11/18/scout/bathroom.jpg",
-              "success": true,
-              "analysis_error": "未找到可解析的 JSON 对象"
-            }
-          ],
-          "updated_at": "2026-04-11T18:18:42.946033+08:00"
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-11/18/wan27_1775907541_0.png",
+          "location": "阳台猫窝",
+          "activity": "在猫窝里休息",
+          "surroundings": "晾衣架下方绿色猫窝中，灰蓝色身影蜷缩其中",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画风格，大胆色块，明亮配色，印刷颗粒感质感。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色/琥珀色眼睛、粗短四肢、胖嘟嘟身材、耳朵小而圆润、脖子粗短几乎看不见。铲屎官又不在家，整个领地都是我的！先巡视一圈再说。 时间18:00，日期2026-04-11，摄像头Moss。杰斯在阳台猫窝，在猫窝里休息。周边环境：晾衣架下方绿色猫窝中，灰蓝色身影蜷缩其中。背景必须详细画出猫所在的场景（如卫生间地砖和食碗、客厅沙发和茶几、卧室床铺等），让画面有真实生活感。猫的表情要生动传神，体现当下的心情。整体可爱、鲜明、充满故事感。必须是正方形。",
+          "analysis": {},
+          "captures": [],
+          "updated_at": "2026-04-11T19:39:02.118900+08:00"
         },
         {
           "time": "19:00",
@@ -834,5 +813,5 @@
     "temp_max": "22",
     "observed_at": "2026-04-11T00:00"
   },
-  "updated_at": "2026-04-11T19:38:02.871444+08:00"
+  "updated_at": "2026-04-11T19:39:02.118989+08:00"
 }
