@@ -601,9 +601,9 @@
           "title": "躲猫猫中",
           "description": "杰斯这个小时藏起来了，监控里翻了三个摄像头都没找到。可能躲在那个只有它知道的秘密基地里偷着乐呢~",
           "badge": "躲猫猫",
-          "image": "services/catdaily-journal/assets/styled/2026-04-11/14/wan27_1775888335_0.png",
+          "image": "services/catdaily-journal/assets/styled/2026-04-11/14/wan27_1775894930_0.png",
           "raw_image": "",
-          "styled_image": "services/catdaily-journal/assets/styled/2026-04-11/14/wan27_1775888335_0.png",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-11/14/wan27_1775894930_0.png",
           "location": "",
           "activity": "躲猫猫",
           "surroundings": "",
@@ -631,7 +631,7 @@
               "analysis_error": "未找到可解析的 JSON 对象"
             }
           ],
-          "updated_at": "2026-04-11T14:18:56.289405+08:00"
+          "updated_at": "2026-04-11T16:08:51.293085+08:00"
         },
         {
           "time": "15:00",
@@ -694,5 +694,5 @@
     "temp_max": "22",
     "observed_at": "2026-04-11T00:00"
   },
-  "updated_at": "2026-04-11T16:07:11.697133+08:00"
+  "updated_at": "2026-04-11T16:08:51.293211+08:00"
 }
