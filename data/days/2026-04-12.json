@@ -1,7 +1,7 @@
 {
   "date": "2026-04-12",
   "title": "杰斯 · 2026.04.12 日记",
-  "summary": "昆明今天晴朗，当前 14°C，预计 10°C 到 22°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 18/24 个小时槽位，最近一次更新在 17:00。",
+  "summary": "昆明今天晴朗，当前 14°C，预计 10°C 到 22°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。 今天已经写入 19/24 个小时槽位，最近一次更新在 18:00。",
   "cover_summary": "昆明今天晴朗，当前 14°C，预计 10°C 到 22°C。杰斯的今日日记封面已经建档，等待 24 个整点巡视逐步补完。",
   "cover_image": "services/catdaily-journal/assets/styled/2026-04-12/cover/wan27_1775923271_0.png",
   "stats": [
@@ -757,6 +757,46 @@
             }
           ],
           "updated_at": "2026-04-12T17:19:20.135241+08:00"
+        },
+        {
+          "time": "18:00",
+          "status": "not_found",
+          "camera": "",
+          "camera_label": "",
+          "title": "躲猫猫中",
+          "description": "杰斯这个小时藏起来了，监控里翻了三个摄像头都没找到。可能躲在那个只有它知道的秘密基地里偷着乐呢~",
+          "badge": "躲猫猫",
+          "image": "services/catdaily-journal/assets/styled/2026-04-12/18/wan27_1775989161_0.png",
+          "raw_image": "",
+          "styled_image": "services/catdaily-journal/assets/styled/2026-04-12/18/wan27_1775989161_0.png",
+          "location": "",
+          "activity": "躲猫猫",
+          "surroundings": "",
+          "prompt": "1:1正方形构图。波普风Q版手绘插画风格，大胆色块，明亮配色，印刷颗粒感质感。主角是英国短毛蓝猫杰斯：圆脸、浓密纯蓝灰色短毛、大而圆的古铜色/琥珀色眼睛、粗短四肢、胖嘟嘟身材、耳朵小而圆润、脖子粗短几乎看不见。主题：躲猫猫！杰斯藏在门后，一只胖乎乎的灰蓝色爪子伸在外面按在地上，粉色的肉垫若隐若现。。画面要有日期2026-04-12与时间18:00的标注，像杂志排版一样融入画面。背景画出温馨家中场景：家具、地毯、猫咪玩具散落。整体搞笑可爱、色调明亮、充满趣味。必须是正方形。",
+          "captures": [
+            {
+              "camera": "laoliu",
+              "camera_label": "老六",
+              "image": "services/catdaily-journal/assets/raw/2026-04-12/18/scout/laoliu.jpg",
+              "success": true,
+              "analysis_error": "Command '['openclaw', 'agent', '--agent', 'main', '--local', '--json', '--message', 'MEDIA:./services/catdaily-journal/assets/raw/2026-04-12/18/scout/laoliu.jpg\\n你在分析猫咪日记网站的抓拍图。日期 2026-04-12，时间 18:00，摄像头 老六。\\n请只根据图片内容判断猫是否出现，并且只输出严格 JSON：{\"found\":true|false,\"location\":\"...\",\"activity\":\"...\",\"surroundings\":\"...\"}\\n\\n目标猫特征：灰蓝色英国短毛蓝猫，圆脸，灰蓝色短毛，容易和阴影、深色物体、猫窝融为一体。\\n\\n特别注意的隐蔽位置：\\n- 绿色猫窝（阳台晾衣架下方）——猫可能缩在里面只露出一团灰蓝色轮廓\\n- 纸箱内部——可能只看到耳朵或半个头\\n- 毯子/被子下面——可能只看到隆起的轮廓\\n- 沙发缝隙/靠垫之间\\n- 猫砂盆附近\\n\\n规则：\\n1. 仔细扫描图片中每一个可疑的灰蓝色、蓝灰色色块、圆形轮廓、毛绒质感区域\\n2. 只要看到猫的任何部分（哪怕只是一个耳朵、一条尾巴、一团灰蓝色毛、一双眼睛），found 就是 true\\n3. 不要因为猫只露出一部分就判断为 false\\n4. 如果没有看到猫的任何痕迹，found 返回 false，其余字段留空\\n5. 不要输出代码块，不要输出额外解释\\n6. 如果看到了猫，location 用简洁中文写猫所在位置，activity 用简洁中文写状态，surroundings 用一句中文概括周边环境', '--thinking', 'minimal']' timed out after 120 seconds"
+            },
+            {
+              "camera": "moss",
+              "camera_label": "Moss",
+              "image": "services/catdaily-journal/assets/raw/2026-04-12/18/scout/moss.jpg",
+              "success": true,
+              "analysis_error": "[plugins] feishu_doc: Registered feishu_doc, feishu_app_scopes\n[plugins] feishu_chat: Registered feishu_chat tool\n[plugins] feishu_wiki: Registered feishu_wiki tool\n[plugins] feishu_drive: Registered feishu_drive tool\n[plugins] feishu_bitable: Registered bitable tools\n[plugins] feishu_chat: Registered feishu_chat, feishu_chat_members\n[plugins] feishu_im: Registered feishu_im_user_message, feishu_im_user_fetch_resource, feishu_im_user_get_messages, feishu_im_user_get_thread_messages, feishu_im_user_search_messages\n[plugins] feishu_im_bot_image: Registered feishu_im_bot_image tool\n[plugins] feishu_im: Registered feishu_im_bot_image\n[plugins] Registered all OAPI tools (calendar, task, bitable, search, drive, wiki, sheets, im)\n[plugins] feishu_oauth: Registered feishu_oauth tool\n[plugins] feishu_oauth_batch_auth: Registered feishu_oauth_batch_auth tool\n(node:51529) [OPENCLAW_PLUGIN_SDK_COMPAT_DEPRECATED] Warning: openclaw/plugin-sdk/compat is deprecated for new plugins. Migrate to focused openclaw/plugin-sdk/<subpath> imports. See https://docs.openclaw.ai/plugins/sdk-migration\nBundled plugins must use scoped plugin-sdk subpaths. External plugins may keep compat temporarily while migrating. Migration guide: https://docs.openclaw.ai/plugins/sdk-migration\n(Use `node --trace-warnings ...` to show where the warning was created)\n[diagnostic] lane task error: lane=main durationMs=23775 error=\"Error: session file locked (timeout 10000ms): pid=51310 /Users/ershixiong/.openclaw/agents/main/sessions/d99955ed-6b3b-4f27-a516-a4fe9c0aa9b8.jsonl.lock\"\n[diagnostic] lane task error: lane=session:agent:main:main durationMs=23778 error=\"Error: session file locked (timeout 10000ms): pid=51310 /Users/ershixiong/.openclaw/agents/main/sessions/d99955ed-6b3b-4f27-a516-a4fe9c0aa9b8.jsonl.lock\"\n[model-fallback] model fallback decision: decision=candidate_failed requested=zai/glm-5.1 candidate=zai/glm-5.1 reason=timeout next=none detail=session file locked (timeout 10000ms): pid=51310 /Users/ershixiong/.openclaw/agents/main/sessions/d99955ed-6b3b-4f27-a516-a4fe9c0aa9b8.jsonl.lock\nFailoverError: session file locked (timeout 10000ms): pid=51310 /Users/ershixiong/.openclaw/agents/main/sessions/d99955ed-6b3b-4f27-a516-a4fe9c0aa9b8.jsonl.lock"
+            },
+            {
+              "camera": "bathroom",
+              "camera_label": "卫生间",
+              "image": "services/catdaily-journal/assets/raw/2026-04-12/18/scout/bathroom.jpg",
+              "success": true,
+              "analysis_error": "未找到可解析的 JSON 对象"
+            }
+          ],
+          "updated_at": "2026-04-12T18:19:22.026742+08:00"
         }
       ]
     }
@@ -775,5 +815,5 @@
     "temp_max": "22",
     "observed_at": "2026-04-12T00:00"
   },
-  "updated_at": "2026-04-12T17:19:20.135354+08:00"
+  "updated_at": "2026-04-12T18:19:22.026933+08:00"
 }
